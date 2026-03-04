@@ -7,7 +7,8 @@ document.addEventListener("DOMContentLoaded", function () {
         const campoInput = document.getElementById(idDelCampo);
         const spanMensaje = document.getElementById("err-" + idDelCampo);
 
-        if (!campoInput || !spanMensaje) return; // Evita errores si no encuentra el campo
+        if (!campoInput || !spanMensaje)
+            return; // Evita errores si no encuentra el campo
 
         if (hayError) {
             campoInput.classList.add("input-error");
@@ -86,19 +87,25 @@ document.addEventListener("DOMContentLoaded", function () {
 
     if (passActual) {
         passActual.addEventListener("blur", function () {
-            if (this.value.trim() === "") gestionarEstadoError("pass_actual", true, "Requerido.");
-            else gestionarEstadoError("pass_actual", false, "");
+            if (this.value.trim() === "")
+                gestionarEstadoError("pass_actual", true, "Requerido.");
+            else
+                gestionarEstadoError("pass_actual", false, "");
         });
     }
 
     if (passNueva) {
         passNueva.addEventListener("blur", function () {
             const val = this.value.trim();
-            if (val === "") gestionarEstadoError("pass_nueva", true, "Debes introducir una nueva contraseña.");
-            else if (val.length < 6) gestionarEstadoError("pass_nueva", true, "Mínimo 6 caracteres.");
-            else gestionarEstadoError("pass_nueva", false, "");
+            if (val === "")
+                gestionarEstadoError("pass_nueva", true, "Debes introducir una nueva contraseña.");
+            else if (val.length < 6)
+                gestionarEstadoError("pass_nueva", true, "Mínimo 6 caracteres.");
+            else
+                gestionarEstadoError("pass_nueva", false, "");
 
-            if (passRepetir && passRepetir.value !== "") passRepetir.dispatchEvent(new Event('blur'));
+            if (passRepetir && passRepetir.value !== "")
+                passRepetir.dispatchEvent(new Event('blur'));
         });
     }
 
@@ -106,9 +113,12 @@ document.addEventListener("DOMContentLoaded", function () {
         passRepetir.addEventListener("blur", function () {
             const valNueva = passNueva.value.trim();
             const valRep = this.value.trim();
-            if (valRep === "") gestionarEstadoError("pass_repetir", true, "Debes repetir la contraseña.");
-            else if (valRep !== valNueva) gestionarEstadoError("pass_repetir", true, "Las contraseñas no coinciden.");
-            else gestionarEstadoError("pass_repetir", false, "");
+            if (valRep === "")
+                gestionarEstadoError("pass_repetir", true, "Debes repetir la contraseña.");
+            else if (valRep !== valNueva)
+                gestionarEstadoError("pass_repetir", true, "Las contraseñas no coinciden.");
+            else
+                gestionarEstadoError("pass_repetir", false, "");
         });
     }
 
@@ -117,7 +127,8 @@ document.addEventListener("DOMContentLoaded", function () {
         formPerfil.addEventListener("submit", function (eventoSubmit) {
             const inputsTexto = formPerfil.querySelectorAll("input[type=text]:not([readonly])");
             inputsTexto.forEach(input => input.dispatchEvent(new Event("blur")));
-            if (campoAvatar) campoAvatar.dispatchEvent(new Event("change"));
+            if (campoAvatar)
+                campoAvatar.dispatchEvent(new Event("change"));
 
             const errores = formPerfil.querySelectorAll(".input-error");
             if (errores.length > 0) {
@@ -140,4 +151,17 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         });
     }
+    const alertas = document.querySelectorAll('.perfil-mensaje-exito, .error-perfil-centrado');
+
+    alertas.forEach(alerta => {
+        setTimeout(() => {
+            alerta.style.transition = "opacity 0.5s ease";
+            alerta.style.opacity = "0";
+
+            setTimeout(() => {
+                alerta.style.display = "none";
+            }, 500);
+
+        }, 5000);
+    });
 });

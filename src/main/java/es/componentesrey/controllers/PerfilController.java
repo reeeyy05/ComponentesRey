@@ -44,6 +44,14 @@ public class PerfilController extends HttpServlet {
             return;
         }
 
+        String[] posiblesMensajes = {"mensajeExitoDatos", "mensajeErrorDatos", "mensajeExitoPass", "mensajeErrorPass"};
+        for (String msg : posiblesMensajes) {
+            if (sesion.getAttribute(msg) != null) {
+                request.setAttribute(msg, sesion.getAttribute(msg));
+                sesion.removeAttribute(msg);
+            }
+        }
+
         // Cargar los pedidos del usuario para mostrarlos en el perfil
         PedidoDAO pdao = new PedidoDAO();
         request.setAttribute("misPedidos", pdao.getPedidosPorUsuario(u.getIdUsuario()));
