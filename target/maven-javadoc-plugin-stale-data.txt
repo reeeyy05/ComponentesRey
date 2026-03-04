@@ -1,0 +1,64 @@
+-J-Duser.language=
+-J-Duser.country=
+@options
+@packages
+-classpath
+'C:/Users/arey1/.m2/repository/javax/javaee-web-api/7.0/javaee-web-api-7.0.jar;C:/Users/arey1/.m2/repository/com/mysql/mysql-connector-j/8.3.0/mysql-connector-j-8.3.0.jar;C:/Users/arey1/.m2/repository/com/google/protobuf/protobuf-java/3.25.1/protobuf-java-3.25.1.jar;C:/Users/arey1/.m2/repository/jstl/jstl/1.2/jstl-1.2.jar;C:/Users/arey1/.m2/repository/commons-beanutils/commons-beanutils/1.8.3/commons-beanutils-1.8.3.jar;C:/Users/arey1/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar;C:/Users/arey1/.m2/repository/org/json/json/20231013/json-20231013.jar;C:/Users/arey1/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar;C:/Users/arey1/.m2/repository/commons-fileupload/commons-fileupload/1.5/commons-fileupload-1.5.jar;C:/Users/arey1/.m2/repository/commons-io/commons-io/2.17.0/commons-io-2.17.0.jar'
+-encoding
+'UTF-8'
+-protected
+-sourcepath
+'C:/Users/arey1/Documentos/DAW_2A/DESARROLLO_WEB_SERVIDOR/1_TRIMESTRE/ComponentesRey/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2026. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/arey1/Documentos/DAW_2A/DESARROLLO_WEB_SERVIDOR/1_TRIMESTRE/ComponentesRey/target/reports/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'ComponentesRey 1.0 API'
+-linkoffline
+'https://docs.oracle.com/javase/7/docs/api' 'C:/Users/arey1/Documentos/DAW_2A/DESARROLLO_WEB_SERVIDOR/1_TRIMESTRE/ComponentesRey/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'ComponentesRey 1.0 API'
+es.componentesrey.beans
+es.componentesrey.controllers
+es.componentesrey.DAO
+es.componentesrey.filters
+es.componentesrey.listeners
+es.componentesrey.utils
+C:\Users\arey1\.m2\repository\javax\javaee-web-api\7.0\javaee-web-api-7.0.jar = 1758654385552
+C:\Users\arey1\.m2\repository\com\mysql\mysql-connector-j\8.3.0\mysql-connector-j-8.3.0.jar = 1770813061596
+C:\Users\arey1\.m2\repository\com\google\protobuf\protobuf-java\3.25.1\protobuf-java-3.25.1.jar = 1770813062244
+C:\Users\arey1\.m2\repository\jstl\jstl\1.2\jstl-1.2.jar = 1763133214342
+C:\Users\arey1\.m2\repository\commons-beanutils\commons-beanutils\1.8.3\commons-beanutils-1.8.3.jar = 1770813061880
+C:\Users\arey1\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar = 1770813061656
+C:\Users\arey1\.m2\repository\org\json\json\20231013\json-20231013.jar = 1771759008658
+C:\Users\arey1\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar = 1771759008769
+C:\Users\arey1\.m2\repository\commons-fileupload\commons-fileupload\1.5\commons-fileupload-1.5.jar = 1771846296853
+C:\Users\arey1\.m2\repository\commons-io\commons-io\2.17.0\commons-io-2.17.0.jar = 1771846297075
+C:\Users\arey1\Documentos\DAW_2A\DESARROLLO_WEB_SERVIDOR\1_TRIMESTRE\ComponentesRey\src\main\java = 1770373212698
+C:\Users\arey1\Documentos\DAW_2A\DESARROLLO_WEB_SERVIDOR\1_TRIMESTRE\ComponentesRey\target\reports\apidocs\allclasses-index.html = 1772642130634
+C:\Users\arey1\Documentos\DAW_2A\DESARROLLO_WEB_SERVIDOR\1_TRIMESTRE\ComponentesRey\target\reports\apidocs\allclasses.html = 1772642130656
+C:\Users\arey1\Documentos\DAW_2A\DESARROLLO_WEB_SERVIDOR\1_TRIMESTRE\ComponentesRey\target\reports\apidocs\allpackages-index.html = 1772642130639
+C:\Users\arey1\Documentos\DAW_2A\DESARROLLO_WEB_SERVIDOR\1_TRIMESTRE\ComponentesRey\target\reports\apidocs\constant-values.html = 1772642129835
+C:\Users\arey1\Documentos\DAW_2A\DESARROLLO_WEB_SERVIDOR\1_TRIMESTRE\ComponentesRey\target\reports\apidocs\deprecated-list.html = 1772642130649
+C:\Users\arey1\Documentos\DAW_2A\DESARROLLO_WEB_SERVIDOR\1_TRIMESTRE\ComponentesRey\target\reports\apidocs\element-list = 1772642129704
+C:\Users\arey1\Documentos\DAW_2A\DESARROLLO_WEB_SERVIDOR\1_TRIMESTRE\ComponentesRey\target\reports\apidocs\help-doc.html = 1772642130679
+C:\Users\arey1\Documentos\DAW_2A\DESARROLLO_WEB_SERVIDOR\1_TRIMESTRE\ComponentesRey\target\reports\apidocs\index-all.html = 1772642130604
+C:\Users\arey1\Documentos\DAW_2A\DESARROLLO_WEB_SERVIDOR\1_TRIMESTRE\ComponentesRey\target\reports\apidocs\index.html = 1772642130669
+C:\Users\arey1\Documentos\DAW_2A\DESARROLLO_WEB_SERVIDOR\1_TRIMESTRE\ComponentesRey\target\reports\apidocs\jquery-ui.overrides.css = 1772642130728
+C:\Users\arey1\Documentos\DAW_2A\DESARROLLO_WEB_SERVIDOR\1_TRIMESTRE\ComponentesRey\target\reports\apidocs\member-search-index.js = 1772642130600
+C:\Users\arey1\Documentos\DAW_2A\DESARROLLO_WEB_SERVIDOR\1_TRIMESTRE\ComponentesRey\target\reports\apidocs\overview-summary.html = 1772642130674
+C:\Users\arey1\Documentos\DAW_2A\DESARROLLO_WEB_SERVIDOR\1_TRIMESTRE\ComponentesRey\target\reports\apidocs\overview-tree.html = 1772642130466
+C:\Users\arey1\Documentos\DAW_2A\DESARROLLO_WEB_SERVIDOR\1_TRIMESTRE\ComponentesRey\target\reports\apidocs\package-search-index.js = 1772642130592
+C:\Users\arey1\Documentos\DAW_2A\DESARROLLO_WEB_SERVIDOR\1_TRIMESTRE\ComponentesRey\target\reports\apidocs\script.js = 1772642130689
+C:\Users\arey1\Documentos\DAW_2A\DESARROLLO_WEB_SERVIDOR\1_TRIMESTRE\ComponentesRey\target\reports\apidocs\search.js = 1772642130694
+C:\Users\arey1\Documentos\DAW_2A\DESARROLLO_WEB_SERVIDOR\1_TRIMESTRE\ComponentesRey\target\reports\apidocs\serialized-form.html = 1772642129862
+C:\Users\arey1\Documentos\DAW_2A\DESARROLLO_WEB_SERVIDOR\1_TRIMESTRE\ComponentesRey\target\reports\apidocs\stylesheet.css = 1772642130685
+C:\Users\arey1\Documentos\DAW_2A\DESARROLLO_WEB_SERVIDOR\1_TRIMESTRE\ComponentesRey\target\reports\apidocs\type-search-index.js = 1772642130596
