@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1165px" preserveAspectRatio="none" style="width:3647px;height:1165px;background:#FFFFFF;" version="1.1" viewBox="0 0 3647 1165" width="3647px" zoomAndPan="magnify">
+    <defs/>
+    <g>
+        <!--cluster es-->
+        <g id="cluster_es">
+            <rect fill="none" height="1152" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:1.5;" width="3634" x="7" y="7"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="17" x="1815.5" y="23.5332">es</text>
+        </g>
+        <!--cluster componentesrey-->
+        <g id="cluster_componentesrey">
+            <rect fill="none" height="1084" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:1.5;" width="3586" x="31" y="51"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="118" x="1765" y="67.5332">componentesrey</text>
+        </g>
+        <!--cluster beans (DTO)-->
+        <g id="cluster_beans (DTO)">
+            <rect fill="none" height="998.5" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:1.5;" width="381" x="3212" y="95"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="86" x="3359.5" y="111.5332">beans (DTO)</text>
+        </g>
+        <!--cluster DAO-->
+        <g id="cluster_DAO">
+            <rect fill="none" height="679" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:1.5;" width="1820" x="1368" y="432"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="30" x="2263" y="448.5332">DAO</text>
+        </g>
+        <!--cluster utils-->
+        <g id="cluster_utils">
+            <rect fill="none" height="206" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:1.5;" width="634" x="1961" y="156.5"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="30" x="2263" y="173.0332">utils</text>
+        </g>
+        <!--cluster controllers (Servlets)-->
+        <g id="cluster_controllers (Servlets)">
+            <rect fill="none" height="418" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:1.5;" width="1289" x="55" y="204"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="150" x="624.5" y="220.5332">controllers (Servlets)</text>
+        </g>
+        <!--class Categoria-->
+        <g id="elem_Categoria">
+            <rect codeLine="14" fill="#FFFFFF" height="100.8281" id="Categoria" rx="2.5" ry="2.5" style="stroke:#2B7FFF;stroke-width:0.5;" width="129" x="3326.5" y="976.5"/>
+            <ellipse cx="3357.25" cy="992.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/>
+            <path d="M3360.0156,988.375 Q3360.1719,988.1563 3360.3594,988.0469 Q3360.5469,987.9375 3360.7656,987.9375 Q3361.1406,987.9375 3361.375,988.2031 Q3361.6094,988.4531 3361.6094,989.0625 L3361.6094,990.5156 Q3361.6094,991.125 3361.375,991.3906 Q3361.1406,991.6563 3360.7656,991.6563 Q3360.4219,991.6563 3360.2188,991.4531 Q3360.0156,991.2656 3359.9063,990.75 Q3359.8594,990.3906 3359.6719,990.2031 Q3359.3438,989.8281 3358.7344,989.6094 Q3358.125,989.3906 3357.5,989.3906 Q3356.7344,989.3906 3356.0938,989.7188 Q3355.4688,990.0469 3354.9688,990.7969 Q3354.4844,991.5469 3354.4844,992.5781 L3354.4844,993.6719 Q3354.4844,994.9063 3355.375,995.7344 Q3356.2656,996.5469 3357.8594,996.5469 Q3358.7969,996.5469 3359.4531,996.2969 Q3359.8438,996.1406 3360.2656,995.7031 Q3360.5313,995.4375 3360.6719,995.3594 Q3360.8281,995.2813 3361.0313,995.2813 Q3361.3594,995.2813 3361.6094,995.5469 Q3361.875,995.7969 3361.875,996.1406 Q3361.875,996.4844 3361.5313,996.8906 Q3361.0313,997.4688 3360.2344,997.7969 Q3359.1563,998.25 3357.8594,998.25 Q3356.3438,998.25 3355.1406,997.625 Q3354.1563,997.125 3353.4688,996.0625 Q3352.7813,994.9844 3352.7813,993.7031 L3352.7813,992.5469 Q3352.7813,991.2188 3353.3906,990.0781 Q3354.0156,988.9219 3355.1094,988.3125 Q3356.2031,987.6875 3357.4375,987.6875 Q3358.1719,987.6875 3358.8125,987.8594 Q3359.4688,988.0156 3360.0156,988.375 Z " fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="62" x="3374.75" y="998.2285">Categoria</text>
+            <line style="stroke:#2B7FFF;stroke-width:0.5;" x1="3327.5" x2="3454.5" y1="1008.5" y2="1008.5"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="117" x="3332.5" y="1027.0332">-idCategoria : byte</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="102" x="3332.5" y="1044.6426">-nombre : String</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="3332.5" y="1062.252">-imagen : String</text>
+            <line style="stroke:#2B7FFF;stroke-width:0.5;" x1="3327.5" x2="3454.5" y1="1069.3281" y2="1069.3281"/>
+        </g>
+        <!--class Producto-->
+        <g id="elem_Producto">
+            <rect codeLine="20" fill="#FFFFFF" height="153.6563" id="Producto" rx="2.5" ry="2.5" style="stroke:#2B7FFF;stroke-width:0.5;" width="138" x="3322" y="745"/>
+            <ellipse cx="3359.05" cy="761" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/>
+            <path d="M3361.8156,756.875 Q3361.9719,756.6563 3362.1594,756.5469 Q3362.3469,756.4375 3362.5656,756.4375 Q3362.9406,756.4375 3363.175,756.7031 Q3363.4094,756.9531 3363.4094,757.5625 L3363.4094,759.0156 Q3363.4094,759.625 3363.175,759.8906 Q3362.9406,760.1563 3362.5656,760.1563 Q3362.2219,760.1563 3362.0188,759.9531 Q3361.8156,759.7656 3361.7063,759.25 Q3361.6594,758.8906 3361.4719,758.7031 Q3361.1438,758.3281 3360.5344,758.1094 Q3359.925,757.8906 3359.3,757.8906 Q3358.5344,757.8906 3357.8938,758.2188 Q3357.2688,758.5469 3356.7688,759.2969 Q3356.2844,760.0469 3356.2844,761.0781 L3356.2844,762.1719 Q3356.2844,763.4063 3357.175,764.2344 Q3358.0656,765.0469 3359.6594,765.0469 Q3360.5969,765.0469 3361.2531,764.7969 Q3361.6438,764.6406 3362.0656,764.2031 Q3362.3313,763.9375 3362.4719,763.8594 Q3362.6281,763.7813 3362.8313,763.7813 Q3363.1594,763.7813 3363.4094,764.0469 Q3363.675,764.2969 3363.675,764.6406 Q3363.675,764.9844 3363.3313,765.3906 Q3362.8313,765.9688 3362.0344,766.2969 Q3360.9563,766.75 3359.6594,766.75 Q3358.1438,766.75 3356.9406,766.125 Q3355.9563,765.625 3355.2688,764.5625 Q3354.5813,763.4844 3354.5813,762.2031 L3354.5813,761.0469 Q3354.5813,759.7188 3355.1906,758.5781 Q3355.8156,757.4219 3356.9094,756.8125 Q3358.0031,756.1875 3359.2375,756.1875 Q3359.9719,756.1875 3360.6125,756.3594 Q3361.2688,756.5156 3361.8156,756.875 Z " fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="57" x="3377.95" y="766.7285">Producto</text>
+            <line style="stroke:#2B7FFF;stroke-width:0.5;" x1="3323" x2="3459" y1="777" y2="777"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="117" x="3328" y="795.5332">-idProducto : short</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="102" x="3328" y="813.1426">-nombre : String</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="126" x="3328" y="830.752">-descripcion : String</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="99" x="3328" y="848.3613">-precio : double</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="93" x="3328" y="865.9707">-marca : String</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="3328" y="883.5801">-imagen : String</text>
+            <line style="stroke:#2B7FFF;stroke-width:0.5;" x1="3323" x2="3459" y1="890.6563" y2="890.6563"/>
+        </g>
+        <!--class Usuario-->
+        <g id="elem_Usuario">
+            <rect codeLine="29" fill="#FFFFFF" height="276.9219" id="Usuario" rx="2.5" ry="2.5" style="stroke:#2B7FFF;stroke-width:0.5;" width="147" x="3408.5" y="131"/>
+            <ellipse cx="3453.75" cy="147" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/>
+            <path d="M3456.5156,142.875 Q3456.6719,142.6563 3456.8594,142.5469 Q3457.0469,142.4375 3457.2656,142.4375 Q3457.6406,142.4375 3457.875,142.7031 Q3458.1094,142.9531 3458.1094,143.5625 L3458.1094,145.0156 Q3458.1094,145.625 3457.875,145.8906 Q3457.6406,146.1563 3457.2656,146.1563 Q3456.9219,146.1563 3456.7188,145.9531 Q3456.5156,145.7656 3456.4063,145.25 Q3456.3594,144.8906 3456.1719,144.7031 Q3455.8438,144.3281 3455.2344,144.1094 Q3454.625,143.8906 3454,143.8906 Q3453.2344,143.8906 3452.5938,144.2188 Q3451.9688,144.5469 3451.4688,145.2969 Q3450.9844,146.0469 3450.9844,147.0781 L3450.9844,148.1719 Q3450.9844,149.4063 3451.875,150.2344 Q3452.7656,151.0469 3454.3594,151.0469 Q3455.2969,151.0469 3455.9531,150.7969 Q3456.3438,150.6406 3456.7656,150.2031 Q3457.0313,149.9375 3457.1719,149.8594 Q3457.3281,149.7813 3457.5313,149.7813 Q3457.8594,149.7813 3458.1094,150.0469 Q3458.375,150.2969 3458.375,150.6406 Q3458.375,150.9844 3458.0313,151.3906 Q3457.5313,151.9688 3456.7344,152.2969 Q3455.6563,152.75 3454.3594,152.75 Q3452.8438,152.75 3451.6406,152.125 Q3450.6563,151.625 3449.9688,150.5625 Q3449.2813,149.4844 3449.2813,148.2031 L3449.2813,147.0469 Q3449.2813,145.7188 3449.8906,144.5781 Q3450.5156,143.4219 3451.6094,142.8125 Q3452.7031,142.1875 3453.9375,142.1875 Q3454.6719,142.1875 3455.3125,142.3594 Q3455.9688,142.5156 3456.5156,142.875 Z " fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="48" x="3474.25" y="152.7285">Usuario</text>
+            <line style="stroke:#2B7FFF;stroke-width:0.5;" x1="3409.5" x2="3554.5" y1="163" y2="163"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="108" x="3414.5" y="181.5332">-idUsuario : short</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="87" x="3414.5" y="199.1426">-email : String</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="114" x="3414.5" y="216.752">-password : String</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="102" x="3414.5" y="234.3613">-nombre : String</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="110" x="3414.5" y="251.9707">-apellidos : String</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="69" x="3414.5" y="269.5801">-nif : String</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="105" x="3414.5" y="287.1895">-telefono : String</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="111" x="3414.5" y="304.7988">-direccion : String</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="135" x="3414.5" y="322.4082">-codigoPostal : String</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="110" x="3414.5" y="340.0176">-localidad : String</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="111" x="3414.5" y="357.627">-provincia : String</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="130" x="3414.5" y="375.2363">-ultimoAcceso : Date</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="94" x="3414.5" y="392.8457">-avatar : String</text>
+            <line style="stroke:#2B7FFF;stroke-width:0.5;" x1="3409.5" x2="3554.5" y1="399.9219" y2="399.9219"/>
+        </g>
+        <!--class LineaCarrito-->
+        <g id="elem_LineaCarrito">
+            <rect codeLine="45" fill="#FFFFFF" height="83.2188" id="LineaCarrito" rx="2.5" ry="2.5" style="stroke:#2B7FFF;stroke-width:0.5;" width="184" x="3393" y="535"/>
+            <ellipse cx="3441.75" cy="551" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/>
+            <path d="M3444.5156,546.875 Q3444.6719,546.6563 3444.8594,546.5469 Q3445.0469,546.4375 3445.2656,546.4375 Q3445.6406,546.4375 3445.875,546.7031 Q3446.1094,546.9531 3446.1094,547.5625 L3446.1094,549.0156 Q3446.1094,549.625 3445.875,549.8906 Q3445.6406,550.1563 3445.2656,550.1563 Q3444.9219,550.1563 3444.7188,549.9531 Q3444.5156,549.7656 3444.4063,549.25 Q3444.3594,548.8906 3444.1719,548.7031 Q3443.8438,548.3281 3443.2344,548.1094 Q3442.625,547.8906 3442,547.8906 Q3441.2344,547.8906 3440.5938,548.2188 Q3439.9688,548.5469 3439.4688,549.2969 Q3438.9844,550.0469 3438.9844,551.0781 L3438.9844,552.1719 Q3438.9844,553.4063 3439.875,554.2344 Q3440.7656,555.0469 3442.3594,555.0469 Q3443.2969,555.0469 3443.9531,554.7969 Q3444.3438,554.6406 3444.7656,554.2031 Q3445.0313,553.9375 3445.1719,553.8594 Q3445.3281,553.7813 3445.5313,553.7813 Q3445.8594,553.7813 3446.1094,554.0469 Q3446.375,554.2969 3446.375,554.6406 Q3446.375,554.9844 3446.0313,555.3906 Q3445.5313,555.9688 3444.7344,556.2969 Q3443.6563,556.75 3442.3594,556.75 Q3440.8438,556.75 3439.6406,556.125 Q3438.6563,555.625 3437.9688,554.5625 Q3437.2813,553.4844 3437.2813,552.2031 L3437.2813,551.0469 Q3437.2813,549.7188 3437.8906,548.5781 Q3438.5156,547.4219 3439.6094,546.8125 Q3440.7031,546.1875 3441.9375,546.1875 Q3442.6719,546.1875 3443.3125,546.3594 Q3443.9688,546.5156 3444.5156,546.875 Z " fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="78" x="3462.25" y="556.7285">LineaCarrito</text>
+            <line style="stroke:#2B7FFF;stroke-width:0.5;" x1="3394" x2="3576" y1="567" y2="567"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="86" x="3399" y="585.5332">-cantidad : int</text>
+            <line style="stroke:#2B7FFF;stroke-width:0.5;" x1="3394" x2="3576" y1="592.6094" y2="592.6094"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="172" x="3399" y="611.1426">+getImporteTotal() : double</text>
+        </g>
+        <!--class LineaPedido-->
+        <g id="elem_LineaPedido">
+            <rect codeLine="50" fill="#FFFFFF" height="118.4375" id="LineaPedido" rx="2.5" ry="2.5" style="stroke:#2B7FFF;stroke-width:0.5;" width="129" x="3228.5" y="517.5"/>
+            <ellipse cx="3251.6" cy="533.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/>
+            <path d="M3254.3656,529.375 Q3254.5219,529.1563 3254.7094,529.0469 Q3254.8969,528.9375 3255.1156,528.9375 Q3255.4906,528.9375 3255.725,529.2031 Q3255.9594,529.4531 3255.9594,530.0625 L3255.9594,531.5156 Q3255.9594,532.125 3255.725,532.3906 Q3255.4906,532.6563 3255.1156,532.6563 Q3254.7719,532.6563 3254.5688,532.4531 Q3254.3656,532.2656 3254.2563,531.75 Q3254.2094,531.3906 3254.0219,531.2031 Q3253.6938,530.8281 3253.0844,530.6094 Q3252.475,530.3906 3251.85,530.3906 Q3251.0844,530.3906 3250.4438,530.7188 Q3249.8188,531.0469 3249.3188,531.7969 Q3248.8344,532.5469 3248.8344,533.5781 L3248.8344,534.6719 Q3248.8344,535.9063 3249.725,536.7344 Q3250.6156,537.5469 3252.2094,537.5469 Q3253.1469,537.5469 3253.8031,537.2969 Q3254.1938,537.1406 3254.6156,536.7031 Q3254.8813,536.4375 3255.0219,536.3594 Q3255.1781,536.2813 3255.3813,536.2813 Q3255.7094,536.2813 3255.9594,536.5469 Q3256.225,536.7969 3256.225,537.1406 Q3256.225,537.4844 3255.8813,537.8906 Q3255.3813,538.4688 3254.5844,538.7969 Q3253.5063,539.25 3252.2094,539.25 Q3250.6938,539.25 3249.4906,538.625 Q3248.5063,538.125 3247.8188,537.0625 Q3247.1313,535.9844 3247.1313,534.7031 L3247.1313,533.5469 Q3247.1313,532.2188 3247.7406,531.0781 Q3248.3656,529.9219 3249.4594,529.3125 Q3250.5531,528.6875 3251.7875,528.6875 Q3252.5219,528.6875 3253.1625,528.8594 Q3253.8188,529.0156 3254.3656,529.375 Z " fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="79" x="3267.4" y="539.2285">LineaPedido</text>
+            <line style="stroke:#2B7FFF;stroke-width:0.5;" x1="3229.5" x2="3356.5" y1="549.5" y2="549.5"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="95" x="3234.5" y="568.0332">-idLinea : short</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="104" x="3234.5" y="585.6426">-idPedido : short</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="117" x="3234.5" y="603.252">-idProducto : short</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="103" x="3234.5" y="620.8613">-cantidad : short</text>
+            <line style="stroke:#2B7FFF;stroke-width:0.5;" x1="3229.5" x2="3356.5" y1="627.9375" y2="627.9375"/>
+        </g>
+        <!--class Pedido-->
+        <g id="elem_Pedido">
+            <rect codeLine="57" fill="#FFFFFF" height="153.6563" id="Pedido" rx="2.5" ry="2.5" style="stroke:#2B7FFF;stroke-width:0.5;" width="120" x="3233" y="192.5"/>
+            <ellipse cx="3267.8" cy="208.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/>
+            <path d="M3270.5656,204.375 Q3270.7219,204.1563 3270.9094,204.0469 Q3271.0969,203.9375 3271.3156,203.9375 Q3271.6906,203.9375 3271.925,204.2031 Q3272.1594,204.4531 3272.1594,205.0625 L3272.1594,206.5156 Q3272.1594,207.125 3271.925,207.3906 Q3271.6906,207.6563 3271.3156,207.6563 Q3270.9719,207.6563 3270.7688,207.4531 Q3270.5656,207.2656 3270.4563,206.75 Q3270.4094,206.3906 3270.2219,206.2031 Q3269.8938,205.8281 3269.2844,205.6094 Q3268.675,205.3906 3268.05,205.3906 Q3267.2844,205.3906 3266.6438,205.7188 Q3266.0188,206.0469 3265.5188,206.7969 Q3265.0344,207.5469 3265.0344,208.5781 L3265.0344,209.6719 Q3265.0344,210.9063 3265.925,211.7344 Q3266.8156,212.5469 3268.4094,212.5469 Q3269.3469,212.5469 3270.0031,212.2969 Q3270.3938,212.1406 3270.8156,211.7031 Q3271.0813,211.4375 3271.2219,211.3594 Q3271.3781,211.2813 3271.5813,211.2813 Q3271.9094,211.2813 3272.1594,211.5469 Q3272.425,211.7969 3272.425,212.1406 Q3272.425,212.4844 3272.0813,212.8906 Q3271.5813,213.4688 3270.7844,213.7969 Q3269.7063,214.25 3268.4094,214.25 Q3266.8938,214.25 3265.6906,213.625 Q3264.7063,213.125 3264.0188,212.0625 Q3263.3313,210.9844 3263.3313,209.7031 L3263.3313,208.5469 Q3263.3313,207.2188 3263.9406,206.0781 Q3264.5656,204.9219 3265.6594,204.3125 Q3266.7531,203.6875 3267.9875,203.6875 Q3268.7219,203.6875 3269.3625,203.8594 Q3270.0188,204.0156 3270.5656,204.375 Z " fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="44" x="3286.2" y="214.2285">Pedido</text>
+            <line style="stroke:#2B7FFF;stroke-width:0.5;" x1="3234" x2="3352" y1="224.5" y2="224.5"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="104" x="3239" y="243.0332">-idPedido : short</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82" x="3239" y="260.6426">-fecha : Date</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="97" x="3239" y="278.252">-estado : String</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="108" x="3239" y="295.8613">-idUsuario : short</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="107" x="3239" y="313.4707">-importe : double</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="78" x="3239" y="331.0801">-iva : double</text>
+            <line style="stroke:#2B7FFF;stroke-width:0.5;" x1="3234" x2="3352" y1="338.1563" y2="338.1563"/>
+        </g>
+        <!--class ConnectionFactory-->
+        <g id="elem_ConnectionFactory">
+            <rect codeLine="76" fill="#FFFFFF" height="136.0469" id="ConnectionFactory" rx="2.5" ry="2.5" style="stroke:#2B7FFF;stroke-width:0.5;" width="210" x="2386" y="959"/>
+            <ellipse cx="2427.1" cy="975" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/>
+            <path d="M2429.8656,970.875 Q2430.0219,970.6563 2430.2094,970.5469 Q2430.3969,970.4375 2430.6156,970.4375 Q2430.9906,970.4375 2431.225,970.7031 Q2431.4594,970.9531 2431.4594,971.5625 L2431.4594,973.0156 Q2431.4594,973.625 2431.225,973.8906 Q2430.9906,974.1563 2430.6156,974.1563 Q2430.2719,974.1563 2430.0688,973.9531 Q2429.8656,973.7656 2429.7563,973.25 Q2429.7094,972.8906 2429.5219,972.7031 Q2429.1938,972.3281 2428.5844,972.1094 Q2427.975,971.8906 2427.35,971.8906 Q2426.5844,971.8906 2425.9438,972.2188 Q2425.3188,972.5469 2424.8188,973.2969 Q2424.3344,974.0469 2424.3344,975.0781 L2424.3344,976.1719 Q2424.3344,977.4063 2425.225,978.2344 Q2426.1156,979.0469 2427.7094,979.0469 Q2428.6469,979.0469 2429.3031,978.7969 Q2429.6938,978.6406 2430.1156,978.2031 Q2430.3813,977.9375 2430.5219,977.8594 Q2430.6781,977.7813 2430.8813,977.7813 Q2431.2094,977.7813 2431.4594,978.0469 Q2431.725,978.2969 2431.725,978.6406 Q2431.725,978.9844 2431.3813,979.3906 Q2430.8813,979.9688 2430.0844,980.2969 Q2429.0063,980.75 2427.7094,980.75 Q2426.1938,980.75 2424.9906,980.125 Q2424.0063,979.625 2423.3188,978.5625 Q2422.6313,977.4844 2422.6313,976.2031 L2422.6313,975.0469 Q2422.6313,973.7188 2423.2406,972.5781 Q2423.8656,971.4219 2424.9594,970.8125 Q2426.0531,970.1875 2427.2875,970.1875 Q2428.0219,970.1875 2428.6625,970.3594 Q2429.3188,970.5156 2429.8656,970.875 Z " fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="120" x="2446.9" y="980.7285">ConnectionFactory</text>
+            <line style="stroke:#2B7FFF;stroke-width:0.5;" x1="2387" x2="2595" y1="991" y2="991"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="110" x="2392" y="1009.5332">~ds : DataSource</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="148" x="2392" y="1027.1426">~conexion : Connection</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="198" x="2392" y="1044.752">~DATASOURCE_NAME : String</text>
+            <line style="stroke:#2B7FFF;stroke-width:0.5;" x1="2387" x2="2595" y1="1051.8281" y2="1051.8281"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="194" x="2392" y="1070.3613">+getConnection() : Connection</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="161" x="2392" y="1087.9707">+closeConnection() : void</text>
+        </g>
+        <!--class ICategoriaDAO-->
+        <g id="elem_ICategoriaDAO">
+            <rect codeLine="84" fill="#FFFFFF" height="93.9219" id="ICategoriaDAO" rx="2.5" ry="2.5" style="stroke:#2B7FFF;stroke-width:0.5;" width="231" x="2940.5" y="529.5"/>
+            <ellipse cx="3003.75" cy="550.8516" fill="#B4A7E5" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/>
+            <path d="M3004.7031,547.4922 L3004.7031,554.1484 L3006.4219,554.1484 Q3007.0313,554.1484 3007.2969,554.3828 Q3007.5625,554.6172 3007.5625,555.0078 Q3007.5625,555.3828 3007.2969,555.6172 Q3007.0313,555.8516 3006.4219,555.8516 L3001.2813,555.8516 Q3000.6719,555.8516 3000.4063,555.6172 Q3000.1406,555.3828 3000.1406,554.9922 Q3000.1406,554.6172 3000.4063,554.3828 Q3000.6719,554.1484 3001.2813,554.1484 L3003,554.1484 L3003,547.4922 L3001.2813,547.4922 Q3000.6719,547.4922 3000.4063,547.2578 Q3000.1406,547.0234 3000.1406,546.6328 Q3000.1406,546.2578 3000.4063,546.0234 Q3000.6719,545.7891 3001.2813,545.7891 L3006.4219,545.7891 Q3007.0313,545.7891 3007.2969,546.0234 Q3007.5625,546.2578 3007.5625,546.6328 Q3007.5625,547.0234 3007.2969,547.2578 Q3007.0313,547.4922 3006.4219,547.4922 L3004.7031,547.4922 Z " fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="61" x="3041.75" y="546.957">«interface»</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="96" x="3024.25" y="564.127">ICategoriaDAO</text>
+            <line style="stroke:#2B7FFF;stroke-width:0.5;" x1="2941.5" x2="3170.5" y1="572.2031" y2="572.2031"/>
+            <line style="stroke:#2B7FFF;stroke-width:0.5;" x1="2941.5" x2="3170.5" y1="580.2031" y2="580.2031"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="219" x="2946.5" y="598.7363">+getCategorias() : List&lt;Categoria&gt;</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="161" x="2946.5" y="616.3457">+closeConnection() : void</text>
+        </g>
+        <!--class CategoriaDAO-->
+        <g id="elem_CategoriaDAO">
+            <rect codeLine="89" fill="#FFFFFF" height="48" id="CategoriaDAO" rx="2.5" ry="2.5" style="stroke:#2B7FFF;stroke-width:0.5;" width="124" x="2897" y="798"/>
+            <ellipse cx="2912" cy="814" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/>
+            <path d="M2914.7656,809.875 Q2914.9219,809.6563 2915.1094,809.5469 Q2915.2969,809.4375 2915.5156,809.4375 Q2915.8906,809.4375 2916.125,809.7031 Q2916.3594,809.9531 2916.3594,810.5625 L2916.3594,812.0156 Q2916.3594,812.625 2916.125,812.8906 Q2915.8906,813.1563 2915.5156,813.1563 Q2915.1719,813.1563 2914.9688,812.9531 Q2914.7656,812.7656 2914.6563,812.25 Q2914.6094,811.8906 2914.4219,811.7031 Q2914.0938,811.3281 2913.4844,811.1094 Q2912.875,810.8906 2912.25,810.8906 Q2911.4844,810.8906 2910.8438,811.2188 Q2910.2188,811.5469 2909.7188,812.2969 Q2909.2344,813.0469 2909.2344,814.0781 L2909.2344,815.1719 Q2909.2344,816.4063 2910.125,817.2344 Q2911.0156,818.0469 2912.6094,818.0469 Q2913.5469,818.0469 2914.2031,817.7969 Q2914.5938,817.6406 2915.0156,817.2031 Q2915.2813,816.9375 2915.4219,816.8594 Q2915.5781,816.7813 2915.7813,816.7813 Q2916.1094,816.7813 2916.3594,817.0469 Q2916.625,817.2969 2916.625,817.6406 Q2916.625,817.9844 2916.2813,818.3906 Q2915.7813,818.9688 2914.9844,819.2969 Q2913.9063,819.75 2912.6094,819.75 Q2911.0938,819.75 2909.8906,819.125 Q2908.9063,818.625 2908.2188,817.5625 Q2907.5313,816.4844 2907.5313,815.2031 L2907.5313,814.0469 Q2907.5313,812.7188 2908.1406,811.5781 Q2908.7656,810.4219 2909.8594,809.8125 Q2910.9531,809.1875 2912.1875,809.1875 Q2912.9219,809.1875 2913.5625,809.3594 Q2914.2188,809.5156 2914.7656,809.875 Z " fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92" x="2926" y="819.7285">CategoriaDAO</text>
+            <line style="stroke:#2B7FFF;stroke-width:0.5;" x1="2898" x2="3020" y1="830" y2="830"/>
+            <line style="stroke:#2B7FFF;stroke-width:0.5;" x1="2898" x2="3020" y1="838" y2="838"/>
+        </g>
+        <!--class IProductoDAO-->
+        <g id="elem_IProductoDAO">
+            <rect codeLine="91" fill="#FFFFFF" height="181.9688" id="IProductoDAO" rx="2.5" ry="2.5" style="stroke:#2B7FFF;stroke-width:0.5;" width="397" x="2508.5" y="485.5"/>
+            <ellipse cx="2657.25" cy="506.8516" fill="#B4A7E5" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/>
+            <path d="M2658.2031,503.4922 L2658.2031,510.1484 L2659.9219,510.1484 Q2660.5313,510.1484 2660.7969,510.3828 Q2661.0625,510.6172 2661.0625,511.0078 Q2661.0625,511.3828 2660.7969,511.6172 Q2660.5313,511.8516 2659.9219,511.8516 L2654.7813,511.8516 Q2654.1719,511.8516 2653.9063,511.6172 Q2653.6406,511.3828 2653.6406,510.9922 Q2653.6406,510.6172 2653.9063,510.3828 Q2654.1719,510.1484 2654.7813,510.1484 L2656.5,510.1484 L2656.5,503.4922 L2654.7813,503.4922 Q2654.1719,503.4922 2653.9063,503.2578 Q2653.6406,503.0234 2653.6406,502.6328 Q2653.6406,502.2578 2653.9063,502.0234 Q2654.1719,501.7891 2654.7813,501.7891 L2659.9219,501.7891 Q2660.5313,501.7891 2660.7969,502.0234 Q2661.0625,502.2578 2661.0625,502.6328 Q2661.0625,503.0234 2660.7969,503.2578 Q2660.5313,503.4922 2659.9219,503.4922 L2658.2031,503.4922 Z " fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="61" x="2692.75" y="502.957">«interface»</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="91" x="2677.75" y="520.127">IProductoDAO</text>
+            <line style="stroke:#2B7FFF;stroke-width:0.5;" x1="2509.5" x2="2904.5" y1="528.2031" y2="528.2031"/>
+            <line style="stroke:#2B7FFF;stroke-width:0.5;" x1="2509.5" x2="2904.5" y1="536.2031" y2="536.2031"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="209" x="2514.5" y="554.7363">+getProductos() : List&lt;Producto&gt;</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="385" x="2514.5" y="572.3457">+getProductosBusqueda(busqueda : String) : List&lt;Producto&gt;</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="292" x="2514.5" y="589.9551">+getProductoPorId(idProducto : int) : Producto</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="171" x="2514.5" y="607.5645">+getMarcas() : List&lt;String&gt;</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="158" x="2514.5" y="625.1738">+getPrecioMax() : double</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="155" x="2514.5" y="642.7832">+getPrecioMin() : double</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="161" x="2514.5" y="660.3926">+closeConnection() : void</text>
+        </g>
+        <!--class ProductoDAO-->
+        <g id="elem_ProductoDAO">
+            <rect codeLine="101" fill="#FFFFFF" height="48" id="ProductoDAO" rx="2.5" ry="2.5" style="stroke:#2B7FFF;stroke-width:0.5;" width="119" x="2576.5" y="798"/>
+            <ellipse cx="2591.5" cy="814" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/>
+            <path d="M2594.2656,809.875 Q2594.4219,809.6563 2594.6094,809.5469 Q2594.7969,809.4375 2595.0156,809.4375 Q2595.3906,809.4375 2595.625,809.7031 Q2595.8594,809.9531 2595.8594,810.5625 L2595.8594,812.0156 Q2595.8594,812.625 2595.625,812.8906 Q2595.3906,813.1563 2595.0156,813.1563 Q2594.6719,813.1563 2594.4688,812.9531 Q2594.2656,812.7656 2594.1563,812.25 Q2594.1094,811.8906 2593.9219,811.7031 Q2593.5938,811.3281 2592.9844,811.1094 Q2592.375,810.8906 2591.75,810.8906 Q2590.9844,810.8906 2590.3438,811.2188 Q2589.7188,811.5469 2589.2188,812.2969 Q2588.7344,813.0469 2588.7344,814.0781 L2588.7344,815.1719 Q2588.7344,816.4063 2589.625,817.2344 Q2590.5156,818.0469 2592.1094,818.0469 Q2593.0469,818.0469 2593.7031,817.7969 Q2594.0938,817.6406 2594.5156,817.2031 Q2594.7813,816.9375 2594.9219,816.8594 Q2595.0781,816.7813 2595.2813,816.7813 Q2595.6094,816.7813 2595.8594,817.0469 Q2596.125,817.2969 2596.125,817.6406 Q2596.125,817.9844 2595.7813,818.3906 Q2595.2813,818.9688 2594.4844,819.2969 Q2593.4063,819.75 2592.1094,819.75 Q2590.5938,819.75 2589.3906,819.125 Q2588.4063,818.625 2587.7188,817.5625 Q2587.0313,816.4844 2587.0313,815.2031 L2587.0313,814.0469 Q2587.0313,812.7188 2587.6406,811.5781 Q2588.2656,810.4219 2589.3594,809.8125 Q2590.4531,809.1875 2591.6875,809.1875 Q2592.4219,809.1875 2593.0625,809.3594 Q2593.7188,809.5156 2594.2656,809.875 Z " fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="87" x="2605.5" y="819.7285">ProductoDAO</text>
+            <line style="stroke:#2B7FFF;stroke-width:0.5;" x1="2577.5" x2="2694.5" y1="830" y2="830"/>
+            <line style="stroke:#2B7FFF;stroke-width:0.5;" x1="2577.5" x2="2694.5" y1="838" y2="838"/>
+        </g>
+        <!--class IUsuarioDAO-->
+        <g id="elem_IUsuarioDAO">
+            <rect codeLine="103" fill="#FFFFFF" height="217.1875" id="IUsuarioDAO" rx="2.5" ry="2.5" style="stroke:#2B7FFF;stroke-width:0.5;" width="394" x="2079" y="468"/>
+            <ellipse cx="2230.25" cy="489.3516" fill="#B4A7E5" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/>
+            <path d="M2231.2031,485.9922 L2231.2031,492.6484 L2232.9219,492.6484 Q2233.5313,492.6484 2233.7969,492.8828 Q2234.0625,493.1172 2234.0625,493.5078 Q2234.0625,493.8828 2233.7969,494.1172 Q2233.5313,494.3516 2232.9219,494.3516 L2227.7813,494.3516 Q2227.1719,494.3516 2226.9063,494.1172 Q2226.6406,493.8828 2226.6406,493.4922 Q2226.6406,493.1172 2226.9063,492.8828 Q2227.1719,492.6484 2227.7813,492.6484 L2229.5,492.6484 L2229.5,485.9922 L2227.7813,485.9922 Q2227.1719,485.9922 2226.9063,485.7578 Q2226.6406,485.5234 2226.6406,485.1328 Q2226.6406,484.7578 2226.9063,484.5234 Q2227.1719,484.2891 2227.7813,484.2891 L2232.9219,484.2891 Q2233.5313,484.2891 2233.7969,484.5234 Q2234.0625,484.7578 2234.0625,485.1328 Q2234.0625,485.5234 2233.7969,485.7578 Q2233.5313,485.9922 2232.9219,485.9922 L2231.2031,485.9922 Z " fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="61" x="2261.75" y="485.457">«interface»</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="83" x="2250.75" y="502.627">IUsuarioDAO</text>
+            <line style="stroke:#2B7FFF;stroke-width:0.5;" x1="2080" x2="2472" y1="510.7031" y2="510.7031"/>
+            <line style="stroke:#2B7FFF;stroke-width:0.5;" x1="2080" x2="2472" y1="518.7031" y2="518.7031"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="289" x="2085" y="537.2363">+registrarUsuario(usuario : Usuario) : boolean</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="265" x="2085" y="554.8457">+comprobarEmail(email : String) : boolean</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="292" x="2085" y="572.4551">+getUsuarioPorEmail(correo : String) : Usuario</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="382" x="2085" y="590.0645">+actualizarAvatarUsuario(id : short, avatar : String) : boolean</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="318" x="2085" y="607.6738">+hacerLogin(email : String, pass : String) : Usuario</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="303" x="2085" y="625.2832">+actualizarUltimoAcceso(idUsuario : short) : void</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="356" x="2085" y="642.8926">+actualizarDatosPersonales(usuario : Usuario) : boolean</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="382" x="2085" y="660.502">+cambiarPassword(idUsuario : short, pass : String) : boolean</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="161" x="2085" y="678.1113">+closeConnection() : void</text>
+        </g>
+        <!--class UsuarioDAO-->
+        <g id="elem_UsuarioDAO">
+            <rect codeLine="115" fill="#FFFFFF" height="48" id="UsuarioDAO" rx="2.5" ry="2.5" style="stroke:#2B7FFF;stroke-width:0.5;" width="110" x="2291" y="798"/>
+            <ellipse cx="2306" cy="814" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/>
+            <path d="M2308.7656,809.875 Q2308.9219,809.6563 2309.1094,809.5469 Q2309.2969,809.4375 2309.5156,809.4375 Q2309.8906,809.4375 2310.125,809.7031 Q2310.3594,809.9531 2310.3594,810.5625 L2310.3594,812.0156 Q2310.3594,812.625 2310.125,812.8906 Q2309.8906,813.1563 2309.5156,813.1563 Q2309.1719,813.1563 2308.9688,812.9531 Q2308.7656,812.7656 2308.6563,812.25 Q2308.6094,811.8906 2308.4219,811.7031 Q2308.0938,811.3281 2307.4844,811.1094 Q2306.875,810.8906 2306.25,810.8906 Q2305.4844,810.8906 2304.8438,811.2188 Q2304.2188,811.5469 2303.7188,812.2969 Q2303.2344,813.0469 2303.2344,814.0781 L2303.2344,815.1719 Q2303.2344,816.4063 2304.125,817.2344 Q2305.0156,818.0469 2306.6094,818.0469 Q2307.5469,818.0469 2308.2031,817.7969 Q2308.5938,817.6406 2309.0156,817.2031 Q2309.2813,816.9375 2309.4219,816.8594 Q2309.5781,816.7813 2309.7813,816.7813 Q2310.1094,816.7813 2310.3594,817.0469 Q2310.625,817.2969 2310.625,817.6406 Q2310.625,817.9844 2310.2813,818.3906 Q2309.7813,818.9688 2308.9844,819.2969 Q2307.9063,819.75 2306.6094,819.75 Q2305.0938,819.75 2303.8906,819.125 Q2302.9063,818.625 2302.2188,817.5625 Q2301.5313,816.4844 2301.5313,815.2031 L2301.5313,814.0469 Q2301.5313,812.7188 2302.1406,811.5781 Q2302.7656,810.4219 2303.8594,809.8125 Q2304.9531,809.1875 2306.1875,809.1875 Q2306.9219,809.1875 2307.5625,809.3594 Q2308.2188,809.5156 2308.7656,809.875 Z " fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="78" x="2320" y="819.7285">UsuarioDAO</text>
+            <line style="stroke:#2B7FFF;stroke-width:0.5;" x1="2292" x2="2400" y1="830" y2="830"/>
+            <line style="stroke:#2B7FFF;stroke-width:0.5;" x1="2292" x2="2400" y1="838" y2="838"/>
+        </g>
+        <!--class IPedidoDAO-->
+        <g id="elem_IPedidoDAO">
+            <rect codeLine="117" fill="#FFFFFF" height="146.75" id="IPedidoDAO" rx="2.5" ry="2.5" style="stroke:#2B7FFF;stroke-width:0.5;" width="659" x="1384.5" y="503"/>
+            <ellipse cx="1670.75" cy="524.3516" fill="#B4A7E5" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/>
+            <path d="M1671.7031,520.9922 L1671.7031,527.6484 L1673.4219,527.6484 Q1674.0313,527.6484 1674.2969,527.8828 Q1674.5625,528.1172 1674.5625,528.5078 Q1674.5625,528.8828 1674.2969,529.1172 Q1674.0313,529.3516 1673.4219,529.3516 L1668.2813,529.3516 Q1667.6719,529.3516 1667.4063,529.1172 Q1667.1406,528.8828 1667.1406,528.4922 Q1667.1406,528.1172 1667.4063,527.8828 Q1667.6719,527.6484 1668.2813,527.6484 L1670,527.6484 L1670,520.9922 L1668.2813,520.9922 Q1667.6719,520.9922 1667.4063,520.7578 Q1667.1406,520.5234 1667.1406,520.1328 Q1667.1406,519.7578 1667.4063,519.5234 Q1667.6719,519.2891 1668.2813,519.2891 L1673.4219,519.2891 Q1674.0313,519.2891 1674.2969,519.5234 Q1674.5625,519.7578 1674.5625,520.1328 Q1674.5625,520.5234 1674.2969,520.7578 Q1674.0313,520.9922 1673.4219,520.9922 L1671.7031,520.9922 Z " fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="61" x="1699.75" y="520.457">«interface»</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="78" x="1691.25" y="537.627">IPedidoDAO</text>
+            <line style="stroke:#2B7FFF;stroke-width:0.5;" x1="1385.5" x2="2042.5" y1="545.7031" y2="545.7031"/>
+            <line style="stroke:#2B7FFF;stroke-width:0.5;" x1="1385.5" x2="2042.5" y1="553.7031" y2="553.7031"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="642" x="1390.5" y="572.2363">+guardarCarritoBD(usuario : Usuario, carrito : List&lt;LineaCarrito&gt;, importe : double, iva : double) : void</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="331" x="1390.5" y="589.8457">+getCarritoBD(idUsuario : short) : List&lt;LineaCarrito&gt;</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="647" x="1390.5" y="607.4551">+tramitarPedido(usuario : Usuario, carrito : List&lt;LineaCarrito&gt;, importe : double, iva : double) : boolean</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="356" x="1390.5" y="625.0645">+getPedidosPorUsuario(idUsuario : short) : List&lt;Pedido&gt;</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="161" x="1390.5" y="642.6738">+closeConnection() : void</text>
+        </g>
+        <!--class PedidoDAO-->
+        <g id="elem_PedidoDAO">
+            <rect codeLine="125" fill="#FFFFFF" height="65.6094" id="PedidoDAO" rx="2.5" ry="2.5" style="stroke:#2B7FFF;stroke-width:0.5;" width="544" x="1542" y="789"/>
+            <ellipse cx="1772.75" cy="805" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/>
+            <path d="M1775.5156,800.875 Q1775.6719,800.6563 1775.8594,800.5469 Q1776.0469,800.4375 1776.2656,800.4375 Q1776.6406,800.4375 1776.875,800.7031 Q1777.1094,800.9531 1777.1094,801.5625 L1777.1094,803.0156 Q1777.1094,803.625 1776.875,803.8906 Q1776.6406,804.1563 1776.2656,804.1563 Q1775.9219,804.1563 1775.7188,803.9531 Q1775.5156,803.7656 1775.4063,803.25 Q1775.3594,802.8906 1775.1719,802.7031 Q1774.8438,802.3281 1774.2344,802.1094 Q1773.625,801.8906 1773,801.8906 Q1772.2344,801.8906 1771.5938,802.2188 Q1770.9688,802.5469 1770.4688,803.2969 Q1769.9844,804.0469 1769.9844,805.0781 L1769.9844,806.1719 Q1769.9844,807.4063 1770.875,808.2344 Q1771.7656,809.0469 1773.3594,809.0469 Q1774.2969,809.0469 1774.9531,808.7969 Q1775.3438,808.6406 1775.7656,808.2031 Q1776.0313,807.9375 1776.1719,807.8594 Q1776.3281,807.7813 1776.5313,807.7813 Q1776.8594,807.7813 1777.1094,808.0469 Q1777.375,808.2969 1777.375,808.6406 Q1777.375,808.9844 1777.0313,809.3906 Q1776.5313,809.9688 1775.7344,810.2969 Q1774.6563,810.75 1773.3594,810.75 Q1771.8438,810.75 1770.6406,810.125 Q1769.6563,809.625 1768.9688,808.5625 Q1768.2813,807.4844 1768.2813,806.2031 L1768.2813,805.0469 Q1768.2813,803.7188 1768.8906,802.5781 Q1769.5156,801.4219 1770.6094,800.8125 Q1771.7031,800.1875 1772.9375,800.1875 Q1773.6719,800.1875 1774.3125,800.3594 Q1774.9688,800.5156 1775.5156,800.875 Z " fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="74" x="1793.25" y="810.7285">PedidoDAO</text>
+            <line style="stroke:#2B7FFF;stroke-width:0.5;" x1="1543" x2="2085" y1="821" y2="821"/>
+            <line style="stroke:#2B7FFF;stroke-width:0.5;" x1="1543" x2="2085" y1="829" y2="829"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="532" x="1548" y="847.5332">-getLineasDeUnPedido(idPedido : short, conexion : Connection) : List&lt;LineaPedido&gt;</text>
+        </g>
+        <!--class Utilidades-->
+        <g id="elem_Utilidades">
+            <rect codeLine="138" fill="#FFFFFF" height="153.6563" id="Utilidades" rx="2.5" ry="2.5" style="stroke:#2B7FFF;stroke-width:0.5;" width="602" x="1977" y="192.5"/>
+            <ellipse cx="2243.25" cy="208.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/>
+            <path d="M2246.0156,204.375 Q2246.1719,204.1563 2246.3594,204.0469 Q2246.5469,203.9375 2246.7656,203.9375 Q2247.1406,203.9375 2247.375,204.2031 Q2247.6094,204.4531 2247.6094,205.0625 L2247.6094,206.5156 Q2247.6094,207.125 2247.375,207.3906 Q2247.1406,207.6563 2246.7656,207.6563 Q2246.4219,207.6563 2246.2188,207.4531 Q2246.0156,207.2656 2245.9063,206.75 Q2245.8594,206.3906 2245.6719,206.2031 Q2245.3438,205.8281 2244.7344,205.6094 Q2244.125,205.3906 2243.5,205.3906 Q2242.7344,205.3906 2242.0938,205.7188 Q2241.4688,206.0469 2240.9688,206.7969 Q2240.4844,207.5469 2240.4844,208.5781 L2240.4844,209.6719 Q2240.4844,210.9063 2241.375,211.7344 Q2242.2656,212.5469 2243.8594,212.5469 Q2244.7969,212.5469 2245.4531,212.2969 Q2245.8438,212.1406 2246.2656,211.7031 Q2246.5313,211.4375 2246.6719,211.3594 Q2246.8281,211.2813 2247.0313,211.2813 Q2247.3594,211.2813 2247.6094,211.5469 Q2247.875,211.7969 2247.875,212.1406 Q2247.875,212.4844 2247.5313,212.8906 Q2247.0313,213.4688 2246.2344,213.7969 Q2245.1563,214.25 2243.8594,214.25 Q2242.3438,214.25 2241.1406,213.625 Q2240.1563,213.125 2239.4688,212.0625 Q2238.7813,210.9844 2238.7813,209.7031 L2238.7813,208.5469 Q2238.7813,207.2188 2239.3906,206.0781 Q2240.0156,204.9219 2241.1094,204.3125 Q2242.2031,203.6875 2243.4375,203.6875 Q2244.1719,203.6875 2244.8125,203.8594 Q2245.4688,204.0156 2246.0156,204.375 Z " fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="61" x="2263.75" y="214.2285">Utilidades</text>
+            <line style="stroke:#2B7FFF;stroke-width:0.5;" x1="1978" x2="2578" y1="224.5" y2="224.5"/>
+            <line style="stroke:#2B7FFF;stroke-width:0.5;" x1="1978" x2="2578" y1="232.5" y2="232.5"/>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="208" x="1983" y="251.0332">+cifrarMD5(input : String) : String</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="191" x="1983" y="268.6426">-getMd5(input : String) : String</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="230" x="1983" y="286.252">+calcularLetraDNI(dni : String) : char</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="590" x="1983" y="303.8613">+guardarCarritoEnCookie(response : HttpServletResponse, carrito : List&lt;LineaCarrito&gt;) : void</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="457" x="1983" y="321.4707">+leerCarritoDeCookie(request : HttpServletRequest) : List&lt;LineaCarrito&gt;</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="386" x="1983" y="339.0801">+borrarCookieCarrito(response : HttpServletResponse) : void</text>
+        </g>
+        <!--class InicioController-->
+        <g id="elem_InicioController">
+            <rect codeLine="150" fill="#FFFFFF" height="58.7031" id="InicioController" rx="2.5" ry="2.5" style="stroke:#2B7FFF;stroke-width:0.5;" width="126" x="993" y="240"/>
+            <ellipse cx="1008" cy="261.3516" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/>
+            <path d="M1010.7656,257.2266 Q1010.9219,257.0078 1011.1094,256.8984 Q1011.2969,256.7891 1011.5156,256.7891 Q1011.8906,256.7891 1012.125,257.0547 Q1012.3594,257.3047 1012.3594,257.9141 L1012.3594,259.3672 Q1012.3594,259.9766 1012.125,260.2422 Q1011.8906,260.5078 1011.5156,260.5078 Q1011.1719,260.5078 1010.9688,260.3047 Q1010.7656,260.1172 1010.6563,259.6016 Q1010.6094,259.2422 1010.4219,259.0547 Q1010.0938,258.6797 1009.4844,258.4609 Q1008.875,258.2422 1008.25,258.2422 Q1007.4844,258.2422 1006.8438,258.5703 Q1006.2188,258.8984 1005.7188,259.6484 Q1005.2344,260.3984 1005.2344,261.4297 L1005.2344,262.5234 Q1005.2344,263.7578 1006.125,264.5859 Q1007.0156,265.3984 1008.6094,265.3984 Q1009.5469,265.3984 1010.2031,265.1484 Q1010.5938,264.9922 1011.0156,264.5547 Q1011.2813,264.2891 1011.4219,264.2109 Q1011.5781,264.1328 1011.7813,264.1328 Q1012.1094,264.1328 1012.3594,264.3984 Q1012.625,264.6484 1012.625,264.9922 Q1012.625,265.3359 1012.2813,265.7422 Q1011.7813,266.3203 1010.9844,266.6484 Q1009.9063,267.1016 1008.6094,267.1016 Q1007.0938,267.1016 1005.8906,266.4766 Q1004.9063,265.9766 1004.2188,264.9141 Q1003.5313,263.8359 1003.5313,262.5547 L1003.5313,261.3984 Q1003.5313,260.0703 1004.1406,258.9297 Q1004.7656,257.7734 1005.8594,257.1641 Q1006.9531,256.5391 1008.1875,256.5391 Q1008.9219,256.5391 1009.5625,256.7109 Q1010.2188,256.8672 1010.7656,257.2266 Z " fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="52" x="1043" y="257.457">«Servlet»</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="94" x="1022" y="274.627">InicioController</text>
+            <line style="stroke:#2B7FFF;stroke-width:0.5;" x1="994" x2="1118" y1="282.7031" y2="282.7031"/>
+            <line style="stroke:#2B7FFF;stroke-width:0.5;" x1="994" x2="1118" y1="290.7031" y2="290.7031"/>
+        </g>
+        <!--class LoginController-->
+        <g id="elem_LoginController">
+            <rect codeLine="151" fill="#FFFFFF" height="58.7031" id="LoginController" rx="2.5" ry="2.5" style="stroke:#2B7FFF;stroke-width:0.5;" width="129" x="656.5" y="240"/>
+            <ellipse cx="671.5" cy="261.3516" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/>
+            <path d="M674.2656,257.2266 Q674.4219,257.0078 674.6094,256.8984 Q674.7969,256.7891 675.0156,256.7891 Q675.3906,256.7891 675.625,257.0547 Q675.8594,257.3047 675.8594,257.9141 L675.8594,259.3672 Q675.8594,259.9766 675.625,260.2422 Q675.3906,260.5078 675.0156,260.5078 Q674.6719,260.5078 674.4688,260.3047 Q674.2656,260.1172 674.1563,259.6016 Q674.1094,259.2422 673.9219,259.0547 Q673.5938,258.6797 672.9844,258.4609 Q672.375,258.2422 671.75,258.2422 Q670.9844,258.2422 670.3438,258.5703 Q669.7188,258.8984 669.2188,259.6484 Q668.7344,260.3984 668.7344,261.4297 L668.7344,262.5234 Q668.7344,263.7578 669.625,264.5859 Q670.5156,265.3984 672.1094,265.3984 Q673.0469,265.3984 673.7031,265.1484 Q674.0938,264.9922 674.5156,264.5547 Q674.7813,264.2891 674.9219,264.2109 Q675.0781,264.1328 675.2813,264.1328 Q675.6094,264.1328 675.8594,264.3984 Q676.125,264.6484 676.125,264.9922 Q676.125,265.3359 675.7813,265.7422 Q675.2813,266.3203 674.4844,266.6484 Q673.4063,267.1016 672.1094,267.1016 Q670.5938,267.1016 669.3906,266.4766 Q668.4063,265.9766 667.7188,264.9141 Q667.0313,263.8359 667.0313,262.5547 L667.0313,261.3984 Q667.0313,260.0703 667.6406,258.9297 Q668.2656,257.7734 669.3594,257.1641 Q670.4531,256.5391 671.6875,256.5391 Q672.4219,256.5391 673.0625,256.7109 Q673.7188,256.8672 674.2656,257.2266 Z " fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="52" x="708" y="257.457">«Servlet»</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="97" x="685.5" y="274.627">LoginController</text>
+            <line style="stroke:#2B7FFF;stroke-width:0.5;" x1="657.5" x2="784.5" y1="282.7031" y2="282.7031"/>
+            <line style="stroke:#2B7FFF;stroke-width:0.5;" x1="657.5" x2="784.5" y1="290.7031" y2="290.7031"/>
+        </g>
+        <!--class LogoutController-->
+        <g id="elem_LogoutController">
+            <rect codeLine="152" fill="#FFFFFF" height="58.7031" id="LogoutController" rx="2.5" ry="2.5" style="stroke:#2B7FFF;stroke-width:0.5;" width="138" x="71" y="240"/>
+            <ellipse cx="86" cy="261.3516" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/>
+            <path d="M88.7656,257.2266 Q88.9219,257.0078 89.1094,256.8984 Q89.2969,256.7891 89.5156,256.7891 Q89.8906,256.7891 90.125,257.0547 Q90.3594,257.3047 90.3594,257.9141 L90.3594,259.3672 Q90.3594,259.9766 90.125,260.2422 Q89.8906,260.5078 89.5156,260.5078 Q89.1719,260.5078 88.9688,260.3047 Q88.7656,260.1172 88.6563,259.6016 Q88.6094,259.2422 88.4219,259.0547 Q88.0938,258.6797 87.4844,258.4609 Q86.875,258.2422 86.25,258.2422 Q85.4844,258.2422 84.8438,258.5703 Q84.2188,258.8984 83.7188,259.6484 Q83.2344,260.3984 83.2344,261.4297 L83.2344,262.5234 Q83.2344,263.7578 84.125,264.5859 Q85.0156,265.3984 86.6094,265.3984 Q87.5469,265.3984 88.2031,265.1484 Q88.5938,264.9922 89.0156,264.5547 Q89.2813,264.2891 89.4219,264.2109 Q89.5781,264.1328 89.7813,264.1328 Q90.1094,264.1328 90.3594,264.3984 Q90.625,264.6484 90.625,264.9922 Q90.625,265.3359 90.2813,265.7422 Q89.7813,266.3203 88.9844,266.6484 Q87.9063,267.1016 86.6094,267.1016 Q85.0938,267.1016 83.8906,266.4766 Q82.9063,265.9766 82.2188,264.9141 Q81.5313,263.8359 81.5313,262.5547 L81.5313,261.3984 Q81.5313,260.0703 82.1406,258.9297 Q82.7656,257.7734 83.8594,257.1641 Q84.9531,256.5391 86.1875,256.5391 Q86.9219,256.5391 87.5625,256.7109 Q88.2188,256.8672 88.7656,257.2266 Z " fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="52" x="127" y="257.457">«Servlet»</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="106" x="100" y="274.627">LogoutController</text>
+            <line style="stroke:#2B7FFF;stroke-width:0.5;" x1="72" x2="208" y1="282.7031" y2="282.7031"/>
+            <line style="stroke:#2B7FFF;stroke-width:0.5;" x1="72" x2="208" y1="290.7031" y2="290.7031"/>
+        </g>
+        <!--class RegistroController-->
+        <g id="elem_RegistroController">
+            <rect codeLine="153" fill="#FFFFFF" height="58.7031" id="RegistroController" rx="2.5" ry="2.5" style="stroke:#2B7FFF;stroke-width:0.5;" width="147" x="474.5" y="240"/>
+            <ellipse cx="489.5" cy="261.3516" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/>
+            <path d="M492.2656,257.2266 Q492.4219,257.0078 492.6094,256.8984 Q492.7969,256.7891 493.0156,256.7891 Q493.3906,256.7891 493.625,257.0547 Q493.8594,257.3047 493.8594,257.9141 L493.8594,259.3672 Q493.8594,259.9766 493.625,260.2422 Q493.3906,260.5078 493.0156,260.5078 Q492.6719,260.5078 492.4688,260.3047 Q492.2656,260.1172 492.1563,259.6016 Q492.1094,259.2422 491.9219,259.0547 Q491.5938,258.6797 490.9844,258.4609 Q490.375,258.2422 489.75,258.2422 Q488.9844,258.2422 488.3438,258.5703 Q487.7188,258.8984 487.2188,259.6484 Q486.7344,260.3984 486.7344,261.4297 L486.7344,262.5234 Q486.7344,263.7578 487.625,264.5859 Q488.5156,265.3984 490.1094,265.3984 Q491.0469,265.3984 491.7031,265.1484 Q492.0938,264.9922 492.5156,264.5547 Q492.7813,264.2891 492.9219,264.2109 Q493.0781,264.1328 493.2813,264.1328 Q493.6094,264.1328 493.8594,264.3984 Q494.125,264.6484 494.125,264.9922 Q494.125,265.3359 493.7813,265.7422 Q493.2813,266.3203 492.4844,266.6484 Q491.4063,267.1016 490.1094,267.1016 Q488.5938,267.1016 487.3906,266.4766 Q486.4063,265.9766 485.7188,264.9141 Q485.0313,263.8359 485.0313,262.5547 L485.0313,261.3984 Q485.0313,260.0703 485.6406,258.9297 Q486.2656,257.7734 487.3594,257.1641 Q488.4531,256.5391 489.6875,256.5391 Q490.4219,256.5391 491.0625,256.7109 Q491.7188,256.8672 492.2656,257.2266 Z " fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="52" x="535" y="257.457">«Servlet»</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="115" x="503.5" y="274.627">RegistroController</text>
+            <line style="stroke:#2B7FFF;stroke-width:0.5;" x1="475.5" x2="620.5" y1="282.7031" y2="282.7031"/>
+            <line style="stroke:#2B7FFF;stroke-width:0.5;" x1="475.5" x2="620.5" y1="290.7031" y2="290.7031"/>
+        </g>
+        <!--class RegistroAjaxController-->
+        <g id="elem_RegistroAjaxController">
+            <rect codeLine="154" fill="#FFFFFF" height="58.7031" id="RegistroAjaxController" rx="2.5" ry="2.5" style="stroke:#2B7FFF;stroke-width:0.5;" width="173" x="1154.5" y="240"/>
+            <ellipse cx="1169.5" cy="261.3516" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/>
+            <path d="M1172.2656,257.2266 Q1172.4219,257.0078 1172.6094,256.8984 Q1172.7969,256.7891 1173.0156,256.7891 Q1173.3906,256.7891 1173.625,257.0547 Q1173.8594,257.3047 1173.8594,257.9141 L1173.8594,259.3672 Q1173.8594,259.9766 1173.625,260.2422 Q1173.3906,260.5078 1173.0156,260.5078 Q1172.6719,260.5078 1172.4688,260.3047 Q1172.2656,260.1172 1172.1563,259.6016 Q1172.1094,259.2422 1171.9219,259.0547 Q1171.5938,258.6797 1170.9844,258.4609 Q1170.375,258.2422 1169.75,258.2422 Q1168.9844,258.2422 1168.3438,258.5703 Q1167.7188,258.8984 1167.2188,259.6484 Q1166.7344,260.3984 1166.7344,261.4297 L1166.7344,262.5234 Q1166.7344,263.7578 1167.625,264.5859 Q1168.5156,265.3984 1170.1094,265.3984 Q1171.0469,265.3984 1171.7031,265.1484 Q1172.0938,264.9922 1172.5156,264.5547 Q1172.7813,264.2891 1172.9219,264.2109 Q1173.0781,264.1328 1173.2813,264.1328 Q1173.6094,264.1328 1173.8594,264.3984 Q1174.125,264.6484 1174.125,264.9922 Q1174.125,265.3359 1173.7813,265.7422 Q1173.2813,266.3203 1172.4844,266.6484 Q1171.4063,267.1016 1170.1094,267.1016 Q1168.5938,267.1016 1167.3906,266.4766 Q1166.4063,265.9766 1165.7188,264.9141 Q1165.0313,263.8359 1165.0313,262.5547 L1165.0313,261.3984 Q1165.0313,260.0703 1165.6406,258.9297 Q1166.2656,257.7734 1167.3594,257.1641 Q1168.4531,256.5391 1169.6875,256.5391 Q1170.4219,256.5391 1171.0625,256.7109 Q1171.7188,256.8672 1172.2656,257.2266 Z " fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="52" x="1228" y="257.457">«Servlet»</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="141" x="1183.5" y="274.627">RegistroAjaxController</text>
+            <line style="stroke:#2B7FFF;stroke-width:0.5;" x1="1155.5" x2="1326.5" y1="282.7031" y2="282.7031"/>
+            <line style="stroke:#2B7FFF;stroke-width:0.5;" x1="1155.5" x2="1326.5" y1="290.7031" y2="290.7031"/>
+        </g>
+        <!--class PerfilController-->
+        <g id="elem_PerfilController">
+            <rect codeLine="155" fill="#FFFFFF" height="58.7031" id="PerfilController" rx="2.5" ry="2.5" style="stroke:#2B7FFF;stroke-width:0.5;" width="126" x="77" y="547"/>
+            <ellipse cx="92" cy="568.3516" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/>
+            <path d="M94.7656,564.2266 Q94.9219,564.0078 95.1094,563.8984 Q95.2969,563.7891 95.5156,563.7891 Q95.8906,563.7891 96.125,564.0547 Q96.3594,564.3047 96.3594,564.9141 L96.3594,566.3672 Q96.3594,566.9766 96.125,567.2422 Q95.8906,567.5078 95.5156,567.5078 Q95.1719,567.5078 94.9688,567.3047 Q94.7656,567.1172 94.6563,566.6016 Q94.6094,566.2422 94.4219,566.0547 Q94.0938,565.6797 93.4844,565.4609 Q92.875,565.2422 92.25,565.2422 Q91.4844,565.2422 90.8438,565.5703 Q90.2188,565.8984 89.7188,566.6484 Q89.2344,567.3984 89.2344,568.4297 L89.2344,569.5234 Q89.2344,570.7578 90.125,571.5859 Q91.0156,572.3984 92.6094,572.3984 Q93.5469,572.3984 94.2031,572.1484 Q94.5938,571.9922 95.0156,571.5547 Q95.2813,571.2891 95.4219,571.2109 Q95.5781,571.1328 95.7813,571.1328 Q96.1094,571.1328 96.3594,571.3984 Q96.625,571.6484 96.625,571.9922 Q96.625,572.3359 96.2813,572.7422 Q95.7813,573.3203 94.9844,573.6484 Q93.9063,574.1016 92.6094,574.1016 Q91.0938,574.1016 89.8906,573.4766 Q88.9063,572.9766 88.2188,571.9141 Q87.5313,570.8359 87.5313,569.5547 L87.5313,568.3984 Q87.5313,567.0703 88.1406,565.9297 Q88.7656,564.7734 89.8594,564.1641 Q90.9531,563.5391 92.1875,563.5391 Q92.9219,563.5391 93.5625,563.7109 Q94.2188,563.8672 94.7656,564.2266 Z " fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="52" x="127" y="564.457">«Servlet»</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="94" x="106" y="581.627">PerfilController</text>
+            <line style="stroke:#2B7FFF;stroke-width:0.5;" x1="78" x2="202" y1="589.7031" y2="589.7031"/>
+            <line style="stroke:#2B7FFF;stroke-width:0.5;" x1="78" x2="202" y1="597.7031" y2="597.7031"/>
+        </g>
+        <!--class CarritoController-->
+        <g id="elem_CarritoController">
+            <rect codeLine="156" fill="#FFFFFF" height="58.7031" id="CarritoController" rx="2.5" ry="2.5" style="stroke:#2B7FFF;stroke-width:0.5;" width="137" x="820.5" y="240"/>
+            <ellipse cx="835.5" cy="261.3516" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/>
+            <path d="M838.2656,257.2266 Q838.4219,257.0078 838.6094,256.8984 Q838.7969,256.7891 839.0156,256.7891 Q839.3906,256.7891 839.625,257.0547 Q839.8594,257.3047 839.8594,257.9141 L839.8594,259.3672 Q839.8594,259.9766 839.625,260.2422 Q839.3906,260.5078 839.0156,260.5078 Q838.6719,260.5078 838.4688,260.3047 Q838.2656,260.1172 838.1563,259.6016 Q838.1094,259.2422 837.9219,259.0547 Q837.5938,258.6797 836.9844,258.4609 Q836.375,258.2422 835.75,258.2422 Q834.9844,258.2422 834.3438,258.5703 Q833.7188,258.8984 833.2188,259.6484 Q832.7344,260.3984 832.7344,261.4297 L832.7344,262.5234 Q832.7344,263.7578 833.625,264.5859 Q834.5156,265.3984 836.1094,265.3984 Q837.0469,265.3984 837.7031,265.1484 Q838.0938,264.9922 838.5156,264.5547 Q838.7813,264.2891 838.9219,264.2109 Q839.0781,264.1328 839.2813,264.1328 Q839.6094,264.1328 839.8594,264.3984 Q840.125,264.6484 840.125,264.9922 Q840.125,265.3359 839.7813,265.7422 Q839.2813,266.3203 838.4844,266.6484 Q837.4063,267.1016 836.1094,267.1016 Q834.5938,267.1016 833.3906,266.4766 Q832.4063,265.9766 831.7188,264.9141 Q831.0313,263.8359 831.0313,262.5547 L831.0313,261.3984 Q831.0313,260.0703 831.6406,258.9297 Q832.2656,257.7734 833.3594,257.1641 Q834.4531,256.5391 835.6875,256.5391 Q836.4219,256.5391 837.0625,256.7109 Q837.7188,256.8672 838.2656,257.2266 Z " fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="52" x="876" y="257.457">«Servlet»</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="105" x="849.5" y="274.627">CarritoController</text>
+            <line style="stroke:#2B7FFF;stroke-width:0.5;" x1="821.5" x2="956.5" y1="282.7031" y2="282.7031"/>
+            <line style="stroke:#2B7FFF;stroke-width:0.5;" x1="821.5" x2="956.5" y1="290.7031" y2="290.7031"/>
+        </g>
+        <!--class CarritoAjaxController-->
+        <g id="elem_CarritoAjaxController">
+            <rect codeLine="157" fill="#FFFFFF" height="58.7031" id="CarritoAjaxController" rx="2.5" ry="2.5" style="stroke:#2B7FFF;stroke-width:0.5;" width="163" x="238.5" y="547"/>
+            <ellipse cx="253.5" cy="568.3516" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/>
+            <path d="M256.2656,564.2266 Q256.4219,564.0078 256.6094,563.8984 Q256.7969,563.7891 257.0156,563.7891 Q257.3906,563.7891 257.625,564.0547 Q257.8594,564.3047 257.8594,564.9141 L257.8594,566.3672 Q257.8594,566.9766 257.625,567.2422 Q257.3906,567.5078 257.0156,567.5078 Q256.6719,567.5078 256.4688,567.3047 Q256.2656,567.1172 256.1563,566.6016 Q256.1094,566.2422 255.9219,566.0547 Q255.5938,565.6797 254.9844,565.4609 Q254.375,565.2422 253.75,565.2422 Q252.9844,565.2422 252.3438,565.5703 Q251.7188,565.8984 251.2188,566.6484 Q250.7344,567.3984 250.7344,568.4297 L250.7344,569.5234 Q250.7344,570.7578 251.625,571.5859 Q252.5156,572.3984 254.1094,572.3984 Q255.0469,572.3984 255.7031,572.1484 Q256.0938,571.9922 256.5156,571.5547 Q256.7813,571.2891 256.9219,571.2109 Q257.0781,571.1328 257.2813,571.1328 Q257.6094,571.1328 257.8594,571.3984 Q258.125,571.6484 258.125,571.9922 Q258.125,572.3359 257.7813,572.7422 Q257.2813,573.3203 256.4844,573.6484 Q255.4063,574.1016 254.1094,574.1016 Q252.5938,574.1016 251.3906,573.4766 Q250.4063,572.9766 249.7188,571.9141 Q249.0313,570.8359 249.0313,569.5547 L249.0313,568.3984 Q249.0313,567.0703 249.6406,565.9297 Q250.2656,564.7734 251.3594,564.1641 Q252.4531,563.5391 253.6875,563.5391 Q254.4219,563.5391 255.0625,563.7109 Q255.7188,563.8672 256.2656,564.2266 Z " fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="52" x="307" y="564.457">«Servlet»</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="131" x="267.5" y="581.627">CarritoAjaxController</text>
+            <line style="stroke:#2B7FFF;stroke-width:0.5;" x1="239.5" x2="400.5" y1="589.7031" y2="589.7031"/>
+            <line style="stroke:#2B7FFF;stroke-width:0.5;" x1="239.5" x2="400.5" y1="597.7031" y2="597.7031"/>
+        </g>
+        <!--class ProcesarPedidoController-->
+        <g id="elem_ProcesarPedidoController">
+            <rect codeLine="158" fill="#FFFFFF" height="58.7031" id="ProcesarPedidoController" rx="2.5" ry="2.5" style="stroke:#2B7FFF;stroke-width:0.5;" width="195" x="244.5" y="240"/>
+            <ellipse cx="259.5" cy="261.3516" fill="#ADD1B2" rx="11" ry="11" style="stroke:#181818;stroke-width:1.0;"/>
+            <path d="M262.2656,257.2266 Q262.4219,257.0078 262.6094,256.8984 Q262.7969,256.7891 263.0156,256.7891 Q263.3906,256.7891 263.625,257.0547 Q263.8594,257.3047 263.8594,257.9141 L263.8594,259.3672 Q263.8594,259.9766 263.625,260.2422 Q263.3906,260.5078 263.0156,260.5078 Q262.6719,260.5078 262.4688,260.3047 Q262.2656,260.1172 262.1563,259.6016 Q262.1094,259.2422 261.9219,259.0547 Q261.5938,258.6797 260.9844,258.4609 Q260.375,258.2422 259.75,258.2422 Q258.9844,258.2422 258.3438,258.5703 Q257.7188,258.8984 257.2188,259.6484 Q256.7344,260.3984 256.7344,261.4297 L256.7344,262.5234 Q256.7344,263.7578 257.625,264.5859 Q258.5156,265.3984 260.1094,265.3984 Q261.0469,265.3984 261.7031,265.1484 Q262.0938,264.9922 262.5156,264.5547 Q262.7813,264.2891 262.9219,264.2109 Q263.0781,264.1328 263.2813,264.1328 Q263.6094,264.1328 263.8594,264.3984 Q264.125,264.6484 264.125,264.9922 Q264.125,265.3359 263.7813,265.7422 Q263.2813,266.3203 262.4844,266.6484 Q261.4063,267.1016 260.1094,267.1016 Q258.5938,267.1016 257.3906,266.4766 Q256.4063,265.9766 255.7188,264.9141 Q255.0313,263.8359 255.0313,262.5547 L255.0313,261.3984 Q255.0313,260.0703 255.6406,258.9297 Q256.2656,257.7734 257.3594,257.1641 Q258.4531,256.5391 259.6875,256.5391 Q260.4219,256.5391 261.0625,256.7109 Q261.7188,256.8672 262.2656,257.2266 Z " fill="#000000"/>
+            <text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="52" x="329" y="257.457">«Servlet»</text>
+            <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="163" x="273.5" y="274.627">ProcesarPedidoController</text>
+            <line style="stroke:#2B7FFF;stroke-width:0.5;" x1="245.5" x2="438.5" y1="282.7031" y2="282.7031"/>
+            <line style="stroke:#2B7FFF;stroke-width:0.5;" x1="245.5" x2="438.5" y1="290.7031" y2="290.7031"/>
+        </g>
+        <!--reverse link Producto to Categoria-->
+        <g id="link_Producto_Categoria">
+            <path codeLine="67" d="M3391,912.21 C3391,912.21 3391,976.24 3391,976.24 " fill="none" id="Producto-backto-Categoria" style="stroke:#155DFC;stroke-width:1.0;"/>
+            <polygon fill="#155DFC" points="3391,899.21,3387,905.21,3391,911.21,3395,905.21,3391,899.21" style="stroke:#155DFC;stroke-width:1.0;"/>
+            <polygon fill="#000000" points="3313,940.4058,3315.9389,931.3607,3310.0611,931.3607,3313,940.4058" style="stroke:#000000;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="68" x="3322" y="940.7251">pertenece a</text>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="3383.6992" y="920.0577">1</text>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="3383.5078" y="965.5088">1</text>
+        </g>
+        <!--reverse link LineaCarrito to Producto-->
+        <g id="link_LineaCarrito_Producto">
+            <path codeLine="68" d="M3426.5,631.15 C3426.5,631.15 3426.5,744.85 3426.5,744.85 " fill="none" id="LineaCarrito-backto-Producto" style="stroke:#155DFC;stroke-width:1.0;"/>
+            <polygon fill="none" points="3426.5,618.15,3422.5,624.15,3426.5,630.15,3430.5,624.15,3426.5,618.15" style="stroke:#155DFC;stroke-width:1.0;"/>
+            <polygon fill="#000000" points="3367.5,684.1758,3370.4389,675.1307,3364.5611,675.1307,3367.5,684.1758" style="stroke:#000000;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="49" x="3376.5" y="684.4951">contiene</text>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="3409.6188" y="639.5687">1</text>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="3422.55" y="734.2624">1</text>
+        </g>
+        <!--reverse link LineaPedido to Producto-->
+        <g id="link_LineaPedido_Producto">
+            <path codeLine="69" d="M3339.75,648.62 C3339.75,648.62 3339.75,744.82 3339.75,744.82 " fill="none" id="LineaPedido-backto-Producto" style="stroke:#155DFC;stroke-width:1.0;"/>
+            <polygon fill="none" points="3339.75,635.62,3335.75,641.62,3339.75,647.62,3343.75,641.62,3339.75,635.62" style="stroke:#155DFC;stroke-width:1.0;"/>
+            <polygon fill="#000000" points="3280.75,692.8958,3283.6889,683.8507,3277.8111,683.8507,3280.75,692.8958" style="stroke:#000000;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="49" x="3289.75" y="693.2151">contiene</text>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="3338.0211" y="657.2901">1</text>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="3327.5316" y="734.2295">1</text>
+        </g>
+        <!--reverse link Pedido to LineaPedido-->
+        <g id="link_Pedido_LineaPedido">
+            <path codeLine="70" d="M3293,359.57 C3293,359.57 3293,517.31 3293,517.31 " fill="none" id="Pedido-backto-LineaPedido" style="stroke:#155DFC;stroke-width:1.0;"/>
+            <polygon fill="#155DFC" points="3293,346.57,3289,352.57,3293,358.57,3297,352.57,3293,346.57" style="stroke:#155DFC;stroke-width:1.0;"/>
+            <polygon fill="#000000" points="3197,434.6158,3199.9389,425.5707,3194.0611,425.5707,3197,434.6158" style="stroke:#000000;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="86" x="3206" y="434.9351">compuesto por</text>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="3285.6883" y="367.6726">1</text>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="5" x="3287.6953" y="506.6111">*</text>
+        </g>
+        <!--reverse link ICategoriaDAO to CategoriaDAO-->
+        <g id="link_ICategoriaDAO_CategoriaDAO">
+            <path d="M2980.75,643.54 C2980.75,643.54 2980.75,797.87 2980.75,797.87 " fill="none" id="ICategoriaDAO-backto-CategoriaDAO" style="stroke:#155DFC;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+            <polygon fill="none" points="2973.75,643.54,2980.75,623.54,2987.75,643.54,2973.75,643.54" style="stroke:#155DFC;stroke-width:1.0;"/>
+        </g>
+        <!--reverse link IProductoDAO to ProductoDAO-->
+        <g id="link_IProductoDAO_ProductoDAO">
+            <path d="M2636,687.57 C2636,687.57 2636,797.93 2636,797.93 " fill="none" id="IProductoDAO-backto-ProductoDAO" style="stroke:#155DFC;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+            <polygon fill="none" points="2629,687.57,2636,667.57,2643,687.57,2629,687.57" style="stroke:#155DFC;stroke-width:1.0;"/>
+        </g>
+        <!--reverse link IUsuarioDAO to UsuarioDAO-->
+        <g id="link_IUsuarioDAO_UsuarioDAO">
+            <path d="M2346,705.25 C2346,705.25 2346,797.53 2346,797.53 " fill="none" id="IUsuarioDAO-backto-UsuarioDAO" style="stroke:#155DFC;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+            <polygon fill="none" points="2339,705.25,2346,685.25,2353,705.25,2339,705.25" style="stroke:#155DFC;stroke-width:1.0;"/>
+        </g>
+        <!--reverse link IPedidoDAO to PedidoDAO-->
+        <g id="link_IPedidoDAO_PedidoDAO">
+            <path d="M1792.75,670.16 C1792.75,670.16 1792.75,789 1792.75,789 " fill="none" id="IPedidoDAO-backto-PedidoDAO" style="stroke:#155DFC;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+            <polygon fill="none" points="1785.75,670.16,1792.75,650.16,1799.75,670.16,1785.75,670.16" style="stroke:#155DFC;stroke-width:1.0;"/>
+        </g>
+        <!--link CategoriaDAO to ConnectionFactory-->
+        <g id="link_CategoriaDAO_ConnectionFactory">
+            <path codeLine="130" d="M2959,846.11 C2959,887.58 2959,968 2959,968 C2959,968 2601.03,968 2601.03,968 " fill="none" id="CategoriaDAO-to-ConnectionFactory" style="stroke:#155DFC;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+            <polygon fill="#155DFC" points="2596.03,968,2605.03,972,2601.03,968,2605.03,964,2596.03,968" style="stroke:#155DFC;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="21" x="2818.96" y="964.4951">usa</text>
+        </g>
+        <!--link ProductoDAO to ConnectionFactory-->
+        <g id="link_ProductoDAO_ConnectionFactory">
+            <path codeLine="131" d="M2586.25,846.32 C2586.25,846.32 2586.25,953.82 2586.25,953.82 " fill="none" id="ProductoDAO-to-ConnectionFactory" style="stroke:#155DFC;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+            <polygon fill="#155DFC" points="2586.25,958.82,2590.25,949.82,2586.25,953.82,2582.25,949.82,2586.25,958.82" style="stroke:#155DFC;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="21" x="2564.25" y="896.5651">usa</text>
+        </g>
+        <!--link UsuarioDAO to ConnectionFactory-->
+        <g id="link_UsuarioDAO_ConnectionFactory">
+            <path codeLine="132" d="M2396,846.32 C2396,846.32 2396,953.82 2396,953.82 " fill="none" id="UsuarioDAO-to-ConnectionFactory" style="stroke:#155DFC;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+            <polygon fill="#155DFC" points="2396,958.82,2400,949.82,2396,953.82,2392,949.82,2396,958.82" style="stroke:#155DFC;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="21" x="2374" y="896.5651">usa</text>
+        </g>
+        <!--link PedidoDAO to ConnectionFactory-->
+        <g id="link_PedidoDAO_ConnectionFactory">
+            <path codeLine="133" d="M2086.03,851 C2235.55,851 2391,851 2391,851 C2391,851 2391,953.95 2391,953.95 " fill="none" id="PedidoDAO-to-ConnectionFactory" style="stroke:#155DFC;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+            <polygon fill="#155DFC" points="2391,958.95,2395,949.95,2391,953.95,2387,949.95,2391,958.95" style="stroke:#155DFC;stroke-width:1.0;"/>
+            <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="21" x="2267.99" y="847.4951">usa</text>
+        </g>
+        <!--link InicioController to IProductoDAO-->
+        <g id="link_InicioController_IProductoDAO">
+            <path codeLine="162" d="M1035,299.1 C1035,334.2 1035,388 1035,388 C1035,388 2555.5,388 2555.5,388 C2555.5,388 2555.5,480.29 2555.5,480.29 " fill="none" id="InicioController-to-IProductoDAO" style="stroke:#155DFC;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+            <polygon fill="#155DFC" points="2555.5,485.29,2559.5,476.29,2555.5,480.29,2551.5,476.29,2555.5,485.29" style="stroke:#155DFC;stroke-width:1.0;"/>
+        </g>
+        <!--link InicioController to ICategoriaDAO-->
+        <g id="link_InicioController_ICategoriaDAO">
+            <path codeLine="163" d="M1077,299.02 C1077,327.71 1077,367 1077,367 C1077,367 3056,367 3056,367 C3056,367 3056,524.48 3056,524.48 " fill="none" id="InicioController-to-ICategoriaDAO" style="stroke:#155DFC;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+            <polygon fill="#155DFC" points="3056,529.48,3060,520.48,3056,524.48,3052,520.48,3056,529.48" style="stroke:#155DFC;stroke-width:1.0;"/>
+        </g>
+        <!--link LoginController to IUsuarioDAO-->
+        <g id="link_LoginController_IUsuarioDAO">
+            <path codeLine="164" d="M721,299.21 C721,357.24 721,480 721,480 C721,480 2073.66,480 2073.66,480 " fill="none" id="LoginController-to-IUsuarioDAO" style="stroke:#155DFC;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+            <polygon fill="#155DFC" points="2078.66,480,2069.66,476,2073.66,480,2069.66,484,2078.66,480" style="stroke:#155DFC;stroke-width:1.0;"/>
+        </g>
+        <!--link RegistroController to IUsuarioDAO-->
+        <g id="link_RegistroController_IUsuarioDAO">
+            <path codeLine="165" d="M548,299.05 C548,359.57 548,492 548,492 C548,492 2073.62,492 2073.62,492 " fill="none" id="RegistroController-to-IUsuarioDAO" style="stroke:#155DFC;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+            <polygon fill="#155DFC" points="2078.62,492,2069.62,488,2073.62,492,2069.62,496,2078.62,492" style="stroke:#155DFC;stroke-width:1.0;"/>
+        </g>
+        <!--link CarritoController to IProductoDAO-->
+        <g id="link_CarritoController_IProductoDAO">
+            <path codeLine="166" d="M889,299.24 C889,347.61 889,438 889,438 C889,438 2532,438 2532,438 C2532,438 2532,480.28 2532,480.28 " fill="none" id="CarritoController-to-IProductoDAO" style="stroke:#155DFC;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+            <polygon fill="#155DFC" points="2532,485.28,2536,476.28,2532,480.28,2528,476.28,2532,485.28" style="stroke:#155DFC;stroke-width:1.0;"/>
+        </g>
+        <!--link ProcesarPedidoController to IPedidoDAO-->
+        <g id="link_ProcesarPedidoController_IPedidoDAO">
+            <path codeLine="167" d="M420.5,299.06 C420.5,366.31 420.5,525 420.5,525 C420.5,525 1379.25,525 1379.25,525 " fill="none" id="ProcesarPedidoController-to-IPedidoDAO" style="stroke:#155DFC;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/>
+            <polygon fill="#155DFC" points="1384.25,525,1375.25,521,1379.25,525,1375.25,529,1384.25,525" style="stroke:#155DFC;stroke-width:1.0;"/>
+        </g>
+        <!--SRC=[jLVTRjis5BxtKn3PHPGs2TO1mO0WCA1OpcR0YJqxtYu7MZfnkCgaIr9fqg9zYJtA7g4ljaE9bac9ZhK2oqNIaj_X-Sx_qJ4vEpiZWydTpUYNnImUZBxzVKT-7yqNyTZSzDHxnZTKqZL9SwfKhBLaoqB3A1LypZu1-T61v8o3Vja04L8_2kTYGzFtT0Lp_P83aP1gobSvD1yddti4VwuHl9AYuDb0v4AIFnwPXl8cbb9yh0v_U7TnaTmCAW4XCv3s_AVhdszkRdfVUhtZqhHf_DjYU3yaryFuRawYsqao74_c9wLnbXOv0dMUYlL6SE0Qb8INyoLGhaYKt4zEZYolybT5T40rh8Har5wPdpF2ijtv9Lc-MDRL9HVhfGGydwC7-SeLMoC7xjyW_PssgHHPaMhHK5OVNnBrY1xlf2m3bKgsIPdWeUiD1eUP5pDHB7EN_vhAb7uN_OKgg6HDzjlJDdbOKvO7oU5h7p7MeRlz5jCDv3dBX0gAiOVGiOOS7WGNGGyozD4-_wKYOoin5KhJe0cvI2cIeLdO-UA9yPG5tLpacgr5dAQW3As4Ujb5dwYcyfKWZB4qwO1AoHfvb5AkBI76Ts5uIrQWHrWIKiEzG6kY4pyhsgzF8KCtDy9StWI2ZEbRmODN-pFReRkxygibH6EliWT87sdRdu01p8BXVorpMUMlKFcm9nhqtp6PGKvDEe4Ys7qmXwzDwoalQpySlJiYRx2PcRzkZza0gkEG0g6aNufuSJPmOSKSdsBhrWp5N17he6uI3hXazUR8UyJWrvi2VIW8EWI5MjquYISaYWU3uNn2OlpVVOUMZ3AXLYmuEa2Z0syeafKlJkG_OnGrIx-GhoHJLP3fN1GoXH04ZOJdggvtZuQ0I3UUJnQpmV3Fk_XssCwI6bjMqUwniePUU_ij6YKKD2IU1ClSdC4w1Vb0CUgZEXcCGw-kwfj-tt53nMABLEMROwRqLNtMTx1T63Ice56EkP_36eEbV5OjojkqEiXu2tG8Ru_wUv3NXVfGG4QZfVr77PkkJqo576MHruAGef7UdlXojsOiEWmhRQt7pLIzfS_D9jf4C1v6T8-9wrqt9CvvAoAseRqU40ahj4zIQT5HKRT1Us98BON8iNsvrB68fLXIEJHZFVA7UrW4_M6Vn6XKOgcG4eGdPo6E7DP_WTFr4vLnEGwtJ5azBKwRWp9Cu17DbsEnmd3uV4_B7QGpZOKpiwFMuF22s1J5LYNK5AGIdEQWEdkRhfUCogdTbDfA0nO4NkcSRaxgkDcsEswNVpaZ3XG_IcTKsZ5sdRIjFqLBgnbdwywTU_tJrYG-zGPmmFDbXzog2uQghSOHny9OCqoiohh_Ws-mJ2fr2ijab-lxg5VOx-lqkw1vFQK-TPSjf5KQfn9OSEkFvW9s6XwslfjTmlMsbC06U0PcIrRuCKFiq2zllNbqVjuFx0QNf53KswswO9qiF_XixPFNaArzQ74_6e-IE1dE3sr1XMQvskv1jWZnoEp4e4Ax3yQPFM3Vlaqk8lpSBhHN_FisbpAEjzb_4J7T9q-BdCenO3qaTwCeuymJnLrR1hSah-27V234UmQH18McArCMlsgzcODyoa7FxEdhDTMgSKTT3h3LbK2jwuFPM9kgoiC3vU-ylCGvXNQKJrhS0IiQHTVAZC7axdus6SV9P7OuESoUBaMUuzmWaLMaJlni6N66gyQWHc8VjiX-t_saC-El2qeK-Y1iLYqFeZCm_ei-7mJZU7nW-K6OZKDNN3VLKk1Gt_RxFV0obbx36d_xPyLmNoIH5S6FJ4mFqnEu-IPI9xrMU4mVyTQtCCBRkPl1An7EK0x4embfUwr5PAyJAkIs4_R-1G00]-->
+    </g>
+</svg>
