@@ -3,7 +3,7 @@ skinparam classAttributeIconSize 0
 skinparam linetype ortho
 skinparam packageStyle rectangle
 
-' --- COLORES PARA IDENTIFICAR PATRONES ---
+' Colores para diferenciar las capas
 skinparam class {
     BackgroundColor<<DTO>> #FFF3CD
     BackgroundColor<<DAO>> #D4EDDA
@@ -21,7 +21,6 @@ package "es.componentesrey.beans" {
     class Producto <<DTO>> {
         - idProducto : short
         - nombre : String
-        - descripcion : String
         - precio : double
         - marca : String
         - imagen : String
@@ -31,45 +30,34 @@ package "es.componentesrey.beans" {
         - email : String
         - password : String
         - nombre : String
-        - apellidos : String
         - nif : String
-        - telefono : String
-        - direccion : String
-        - codigoPostal : String
-        - localidad : String
-        - provincia : String
         - ultimoAcceso : Date
         - avatar : String
     }
     class LineaCarrito <<DTO>> {
-        - producto : Producto
         - cantidad : short
     }
     class LineaPedido <<DTO>> {
         - idLinea : short
         - idPedido : short
-        - producto : Producto
         - cantidad : short
     }
     class Pedido <<DTO>> {
         - idPedido : short
         - fecha : Date
         - estado : String
-        - idUsuario : short
         - importe : double
         - iva : double
-        - lineas : List<LineaPedido>
     }
 
-    Producto "1" -- "1" Categoria
-    LineaCarrito "1" o-- "1" Producto
-    LineaPedido "1" o-- "1" Producto
-    Pedido "1" *-- "*" LineaPedido
+    Producto "1" -- "1" Categoria : pertenece
+    LineaCarrito "1" o-- "1" Producto : contiene
+    LineaPedido "1" o-- "1" Producto : contiene
+    Pedido "1" *-- "*" LineaPedido : compuesto por
 }
 
 package "es.componentesrey.DAO" {
     class ConnectionFactory <<DAO>> {
-        {static} ~ ds : DataSource
         {static} + getConnection() : Connection
         {static} + closeConnection() : void
     }
@@ -90,16 +78,6 @@ package "es.componentesrey.DAO" {
     PedidoDAO ..> ConnectionFactory
 }
 
-package "es.componentesrey.utils" {
-    class Utilidades <<Utils>> {
-        {static} + cifrarMD5(input: String) : String
-        {static} + calcularLetraDNI(dni: String) : char
-        {static} + guardarCarritoEnCookie(...) : void
-        {static} + leerCarritoDeCookie(...) : List<LineaCarrito>
-        {static} + borrarCookieCarrito(...) : void
-    }
-}
-
 package "es.componentesrey.controllers" {
     class InicioController <<Controller>>
     class LoginController <<Controller>>
@@ -112,14 +90,17 @@ package "es.componentesrey.controllers" {
     class ProcesarPedidoController <<Controller>>
 
     InicioController ..> IProductoDAO
-    InicioController ..> ICategoriaDAO
     LoginController ..> IUsuarioDAO
     RegistroController ..> IUsuarioDAO
-    RegistroAjaxController ..> IUsuarioDAO
     PerfilController ..> IUsuarioDAO
     PerfilController ..> IPedidoDAO
     CarritoController ..> IProductoDAO
-    CarritoController ..> IPedidoDAO
     ProcesarPedidoController ..> IPedidoDAO
+}
+
+package "es.componentesrey.utils" {
+    class Utilidades <<Utils>> {}
+    RegistroController ..> Utilidades
+    LoginController ..> Utilidades
 }
 @enduml
