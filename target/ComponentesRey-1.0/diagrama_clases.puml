@@ -1,24 +1,24 @@
 @startuml
-' --- CONFIGURACIÓN VISUAL ---
 skinparam classAttributeIconSize 0
 skinparam linetype ortho
 skinparam packageStyle rectangle
+
+' --- COLORES PARA IDENTIFICAR PATRONES ---
 skinparam class {
-    BackgroundColor White
-    ArrowColor #155DFC
-    BorderColor #2B7FFF
+    BackgroundColor<<DTO>> #FFF3CD
+    BackgroundColor<<DAO>> #D4EDDA
+    BackgroundColor<<Controller>> #CCE5FF
+    BackgroundColor<<Utils>> #F8D7DA
+    BorderColor #333333
 }
 
-' --- PAQUETE BEANS (MODELOS) ---
-package "es.componentesrey.beans (DTO)" {
-    
-    class Categoria {
+package "es.componentesrey.beans" {
+    class Categoria <<DTO>> {
         - idCategoria : byte
         - nombre : String
         - imagen : String
     }
-
-    class Producto {
+    class Producto <<DTO>> {
         - idProducto : short
         - nombre : String
         - descripcion : String
@@ -26,8 +26,7 @@ package "es.componentesrey.beans (DTO)" {
         - marca : String
         - imagen : String
     }
-
-    class Usuario {
+    class Usuario <<DTO>> {
         - idUsuario : short
         - email : String
         - password : String
@@ -42,129 +41,85 @@ package "es.componentesrey.beans (DTO)" {
         - ultimoAcceso : Date
         - avatar : String
     }
-
-    class LineaCarrito {
-        - cantidad : int
-        + getImporteTotal() : double
-    }
-
-    class LineaPedido {
-        - idLinea : short
-        - idPedido : short
-        - idProducto : short
+    class LineaCarrito <<DTO>> {
+        - producto : Producto
         - cantidad : short
     }
-
-    class Pedido {
+    class LineaPedido <<DTO>> {
+        - idLinea : short
+        - idPedido : short
+        - producto : Producto
+        - cantidad : short
+    }
+    class Pedido <<DTO>> {
         - idPedido : short
         - fecha : Date
         - estado : String
         - idUsuario : short
         - importe : double
         - iva : double
+        - lineas : List<LineaPedido>
     }
 
-    ' Relaciones entre Beans
-    Producto "1" *-- "1" Categoria : pertenece a >
-    LineaCarrito "1" o-- "1" Producto : contiene >
-    LineaPedido "1" o-- "1" Producto : contiene >
-    Pedido "1" *-- "*" LineaPedido : compuesto por >
+    Producto "1" -- "1" Categoria
+    LineaCarrito "1" o-- "1" Producto
+    LineaPedido "1" o-- "1" Producto
+    Pedido "1" *-- "*" LineaPedido
 }
 
-' --- PAQUETE DAO (ACCESO A DATOS) ---
 package "es.componentesrey.DAO" {
-    
-    class ConnectionFactory {
+    class ConnectionFactory <<DAO>> {
         {static} ~ ds : DataSource
-        {static} ~ conexion : Connection
-        {static} ~ DATASOURCE_NAME : String
         {static} + getConnection() : Connection
         {static} + closeConnection() : void
     }
+    
+    interface ICategoriaDAO <<DAO>>
+    interface IProductoDAO <<DAO>>
+    interface IUsuarioDAO <<DAO>>
+    interface IPedidoDAO <<DAO>>
 
-    interface ICategoriaDAO <<interface>> {
-        + getCategorias() : List<Categoria>
-        + closeConnection() : void
-    }
+    class CategoriaDAO <<DAO>> implements ICategoriaDAO
+    class ProductoDAO <<DAO>> implements IProductoDAO
+    class UsuarioDAO <<DAO>> implements IUsuarioDAO
+    class PedidoDAO <<DAO>> implements IPedidoDAO
 
-    class CategoriaDAO implements ICategoriaDAO
-
-    interface IProductoDAO <<interface>> {
-        + getProductos() : List<Producto>
-        + getProductosBusqueda(busqueda : String) : List<Producto>
-        + getProductoPorId(idProducto : int) : Producto
-        + getMarcas() : List<String>
-        + getPrecioMax() : double
-        + getPrecioMin() : double
-        + closeConnection() : void
-    }
-
-    class ProductoDAO implements IProductoDAO
-
-    interface IUsuarioDAO <<interface>> {
-        + registrarUsuario(usuario : Usuario) : boolean
-        + comprobarEmail(email : String) : boolean
-        + getUsuarioPorEmail(correo : String) : Usuario
-        + actualizarAvatarUsuario(id : short, avatar : String) : boolean
-        + hacerLogin(email : String, pass : String) : Usuario
-        + actualizarUltimoAcceso(idUsuario : short) : void
-        + actualizarDatosPersonales(usuario : Usuario) : boolean
-        + cambiarPassword(idUsuario : short, pass : String) : boolean
-        + closeConnection() : void
-    }
-
-    class UsuarioDAO implements IUsuarioDAO
-
-    interface IPedidoDAO <<interface>> {
-        + guardarCarritoBD(usuario : Usuario, carrito : List<LineaCarrito>, importe : double, iva : double) : void
-        + getCarritoBD(idUsuario : short) : List<LineaCarrito>
-        + tramitarPedido(usuario : Usuario, carrito : List<LineaCarrito>, importe : double, iva : double) : boolean
-        + getPedidosPorUsuario(idUsuario : short) : List<Pedido>
-        + closeConnection() : void
-    }
-
-    class PedidoDAO implements IPedidoDAO {
-        - getLineasDeUnPedido(idPedido : short, conexion : Connection) : List<LineaPedido>
-    }
-
-    ' Dependencias de Factory
-    CategoriaDAO ..> ConnectionFactory : usa
-    ProductoDAO ..> ConnectionFactory : usa
-    UsuarioDAO ..> ConnectionFactory : usa
-    PedidoDAO ..> ConnectionFactory : usa
+    CategoriaDAO ..> ConnectionFactory
+    ProductoDAO ..> ConnectionFactory
+    UsuarioDAO ..> ConnectionFactory
+    PedidoDAO ..> ConnectionFactory
 }
 
-' --- PAQUETE UTILIDADES ---
 package "es.componentesrey.utils" {
-    class Utilidades {
-        {static} + cifrarMD5(input : String) : String
-        {static} - getMd5(input : String) : String
-        {static} + calcularLetraDNI(dni : String) : char
-        {static} + guardarCarritoEnCookie(response : HttpServletResponse, carrito : List<LineaCarrito>) : void
-        {static} + leerCarritoDeCookie(request : HttpServletRequest) : List<LineaCarrito>
-        {static} + borrarCookieCarrito(response : HttpServletResponse) : void
+    class Utilidades <<Utils>> {
+        {static} + cifrarMD5(input: String) : String
+        {static} + calcularLetraDNI(dni: String) : char
+        {static} + guardarCarritoEnCookie(...) : void
+        {static} + leerCarritoDeCookie(...) : List<LineaCarrito>
+        {static} + borrarCookieCarrito(...) : void
     }
 }
 
-' --- PAQUETE CONTROLADORES ---
-package "es.componentesrey.controllers (Servlets)" {
-    class InicioController <<Servlet>>
-    class LoginController <<Servlet>>
-    class LogoutController <<Servlet>>
-    class RegistroController <<Servlet>>
-    class RegistroAjaxController <<Servlet>>
-    class PerfilController <<Servlet>>
-    class CarritoController <<Servlet>>
-    class CarritoAjaxController <<Servlet>>
-    class ProcesarPedidoController <<Servlet>>
+package "es.componentesrey.controllers" {
+    class InicioController <<Controller>>
+    class LoginController <<Controller>>
+    class LogoutController <<Controller>>
+    class RegistroController <<Controller>>
+    class RegistroAjaxController <<Controller>>
+    class PerfilController <<Controller>>
+    class CarritoController <<Controller>>
+    class CarritoAjaxController <<Controller>>
+    class ProcesarPedidoController <<Controller>>
+
+    InicioController ..> IProductoDAO
+    InicioController ..> ICategoriaDAO
+    LoginController ..> IUsuarioDAO
+    RegistroController ..> IUsuarioDAO
+    RegistroAjaxController ..> IUsuarioDAO
+    PerfilController ..> IUsuarioDAO
+    PerfilController ..> IPedidoDAO
+    CarritoController ..> IProductoDAO
+    CarritoController ..> IPedidoDAO
+    ProcesarPedidoController ..> IPedidoDAO
 }
-
-' Dependencias Lógicas (Controladores usan DAOs)
-InicioController ..> IProductoDAO
-InicioController ..> ICategoriaDAO
-LoginController ..> IUsuarioDAO
-RegistroController ..> IUsuarioDAO
-CarritoController ..> IProductoDAO
-ProcesarPedidoController ..> IPedidoDAO
-
 @enduml

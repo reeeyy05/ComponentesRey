@@ -12,7 +12,7 @@
         <script>const CONTEXTO = '${contexto}';</script>
         <script src="${contexto}/JS/registro.js"></script>
     </head>
-    <body class="cuerpo-pagina">
+    <body>
         <jsp:include page="/INC/cabecera.jsp" />
 
         <main class="contenedor-registro">

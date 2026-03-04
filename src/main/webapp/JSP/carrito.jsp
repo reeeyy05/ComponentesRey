@@ -13,7 +13,7 @@
         <script>const CONTEXTO = '${contexto}';</script>
         <script src="${contexto}/JS/carrito.js"></script>
     </head>
-    <body class="cuerpo-pagina">
+    <body>
 
         <jsp:include page="../INC/cabecera.jsp" />
 

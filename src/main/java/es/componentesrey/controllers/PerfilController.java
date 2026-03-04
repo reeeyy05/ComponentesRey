@@ -8,6 +8,7 @@ import java.io.File;
 import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
 import javax.servlet.ServletException;
+import javax.servlet.annotation.MultipartConfig;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -21,6 +22,7 @@ import org.apache.commons.beanutils.BeanUtils;
  * @author arey1
  */
 @WebServlet(name = "PerfilController", urlPatterns = {"/PerfilController"})
+@MultipartConfig
 public class PerfilController extends HttpServlet {
 
     /**

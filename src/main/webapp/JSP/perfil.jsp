@@ -10,8 +10,10 @@
         <title>Mi Perfil - Componentes Rey</title>
         <link rel="stylesheet" href="${contexto}/CSS/estilos.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+        <script>const CONTEXTO = '${contexto}';</script>
+        <script src="${contexto}/JS/perfil.js"></script>
     </head>
-    <body class="cuerpo-pagina">
+    <body>
 
         <jsp:include page="../INC/cabecera.jsp" />
 
@@ -27,7 +29,7 @@
                     <div class="error-perfil-centrado">${mensajeErrorDatos}</div>
                 </c:if>
 
-                <form action="${contexto}/PerfilController" method="post" enctype="multipart/form-data" class="formulario-grid">
+                <form id="formPerfil" action="${contexto}/PerfilController" method="post" enctype="multipart/form-data" class="formulario-grid">
                     <input type="hidden" name="accion" value="actualizar_datos">
 
                     <div class="grupo-form-avatar-perfil">
@@ -47,6 +49,7 @@
                             <label for="nuevo_avatar" class="label-form-general">Cambiar Foto de Perfil:</label>
                             <input type="file" id="nuevo_avatar" name="nuevo_avatar" accept="image/*" class="input-form-general" onchange="readURL(this)">
                             <span class="nota-archivo">Formatos soportados: JPG o PNG. (Opcional)</span>
+                            <span class="mensaje-error" id="err-nuevo_avatar"></span>
                         </div>
                     </div>
 
@@ -65,39 +68,47 @@
                         <fmt:formatDate value="${sessionScope.usuario.ultimoAcceso}" pattern="dd/MM/yyyy - HH:mm:ss" var="fechaAccesoFormateada" />
                         <input type="text" id="ultimo_acceso" value="${not empty sessionScope.usuario.ultimoAcceso ? fechaAccesoFormateada : 'Recién registrado'}" class="input-form-general" readonly>
                     </div>
+
                     <div class="grupo-form-mitad">
                         <label for="nombre" class="label-form-general">Nombre:</label>
                         <input type="text" id="nombre" name="nombre" value="${sessionScope.usuario.nombre}" class="input-form-general">
+                        <span class="mensaje-error" id="err-nombre"></span>
                     </div>
 
                     <div class="grupo-form-mitad">
                         <label for="apellidos" class="label-form-general">Apellidos:</label>
                         <input type="text" id="apellidos" name="apellidos" value="${sessionScope.usuario.apellidos}" class="input-form-general">
+                        <span class="mensaje-error" id="err-apellidos"></span>
                     </div>
 
                     <div class="grupo-form-mitad">
                         <label for="telefono" class="label-form-general">Teléfono:</label>
                         <input type="text" id="telefono" name="telefono" value="${sessionScope.usuario.telefono}" class="input-form-general">
+                        <span class="mensaje-error" id="err-telefono"></span>
                     </div>
 
                     <div class="grupo-form-mitad">
                         <label for="codigo_postal" class="label-form-general">Código Postal:</label>
                         <input type="text" id="codigo_postal" name="codigoPostal" value="${sessionScope.usuario.codigoPostal}" class="input-form-general" maxlength="5">
+                        <span class="mensaje-error" id="err-codigo_postal"></span>
                     </div>
 
                     <div class="grupo-form-ancho-completo">
                         <label for="direccion" class="label-form-general">Dirección:</label>
                         <input type="text" id="direccion" name="direccion" value="${sessionScope.usuario.direccion}" class="input-form-general">
+                        <span class="mensaje-error" id="err-direccion"></span>
                     </div>
 
                     <div class="grupo-form-mitad">
                         <label for="localidad" class="label-form-general">Localidad:</label>
                         <input type="text" id="localidad" name="localidad" value="${sessionScope.usuario.localidad}" class="input-form-general">
+                        <span class="mensaje-error" id="err-localidad"></span>
                     </div>
 
                     <div class="grupo-form-mitad">
                         <label for="provincia" class="label-form-general">Provincia:</label>
                         <input type="text" id="provincia" name="provincia" value="${sessionScope.usuario.provincia}" class="input-form-general">
+                        <span class="mensaje-error" id="err-provincia"></span>
                     </div>
 
                     <button type="submit" class="btn-perfil-enviar">Guardar Cambios</button>
@@ -114,22 +125,25 @@
                     <div class="error-perfil-centrado">${mensajeErrorPass}</div>
                 </c:if>
 
-                <form action="${contexto}/PerfilController" method="post" class="formulario-grid">
+                <form id="formPassword" action="${contexto}/PerfilController" method="post" class="formulario-grid">
                     <input type="hidden" name="accion" value="cambiar_password">
 
                     <div class="grupo-form-ancho-completo">
                         <label for="pass_actual" class="label-form-general">Contraseña Actual:</label>
                         <input type="password" id="pass_actual" name="pass_actual" class="input-form-general">
+                        <span class="mensaje-error" id="err-pass_actual"></span>
                     </div>
 
                     <div class="grupo-form-mitad">
                         <label for="pass_nueva" class="label-form-general">Nueva Contraseña:</label>
                         <input type="password" id="pass_nueva" name="pass_nueva" class="input-form-general">
+                        <span class="mensaje-error" id="err-pass_nueva"></span>
                     </div>
 
                     <div class="grupo-form-mitad">
                         <label for="pass_repetir" class="label-form-general">Repetir Contraseña:</label>
                         <input type="password" id="pass_repetir" name="pass_repetir" class="input-form-general">
+                        <span class="mensaje-error" id="err-pass_repetir"></span>
                     </div>
 
                     <button type="submit" class="btn-perfil-enviar" style="background-color: #333;">Actualizar Contraseña</button>
@@ -261,7 +275,6 @@
         <jsp:include page="../INC/footer.jsp" />
 
         <script>
-            // === LÓGICA DE PREVISUALIZACIÓN DE IMAGEN ADAPTADA DEL PROFESOR ===
             function readURL(input) {
                 if (input.files && input.files[0]) {
                     let reader = new FileReader();

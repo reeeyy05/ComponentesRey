@@ -10,7 +10,8 @@
     --texto-pie: #ecf0f1;
 }
 
-.cuerpo-pagina {
+/* Estilos globales para todas las páginas */
+body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: var(--color-fondo);
     color: var(--texto-secundario);
